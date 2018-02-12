@@ -1,0 +1,19 @@
+.news-title {
+    font-size: rem-calc(22);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2a2e36;
+}
+
+.news-title__arrow {
+    color: #0f73b8;
+    background: #fff;
+    padding: rem-calc(1 8);
+    border-radius: rem-calc(14);
+    border: 1px solid #0f73b8;
+}
+
+.news-title__arrow:hover {
+    color: #fff;
+    background: #0f73b8;
+}

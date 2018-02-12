@@ -1,0 +1,30 @@
+.phone {
+    text-align: center;
+}
+
+.phone__hot-line {
+    text-transform: uppercase;
+    font-size: rem-calc(16);
+    font-weight: bold;
+    margin-top: rem-calc(14);
+    margin-bottom: rem-calc(6);
+    line-height: 1.4;
+}
+
+.phone__phone {
+    color: #077cce;
+    font-size: rem-calc(24);
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.phone__free {
+    font-size: rem-calc(12);
+    text-transform: uppercase;
+    margin-bottom: rem-calc(12);
+}
+
+.phone__email {
+    color: #077cce;
+    font-size: rem-calc(16);
+}

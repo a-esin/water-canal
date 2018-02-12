@@ -1,0 +1,53 @@
+.background-main.padding-vertical-2
+    .grid-container: .grid-x.grid-padding-x
+        .small-4.cell.hide-for-medium.align-self-middle.text-center
+            div(data-responsive-toggle='menu', data-hide-for='medium')
+                .text-primary(data-toggle)
+                    i.fa.fa-bars.fa-2x
+        .small-23.small-offset-1.cell.align-self-middle#menu
+            .margin-bottom-6.hide-for-large
+            ul.menu-base
+                li.menu-base__item
+                    a.menu-base__link(href='#') О компании 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title
+                li.menu-base__item
+                    a.menu-base__link(href='#') Потребителям 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title
+                li.menu-base__item
+                    a.menu-base__link(href='#') Регионы присутствия
+                li.menu-base__item
+                    a.menu-base__link(href='#') Пресс-центр 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title
+                li.menu-base__item
+                    a.menu-base__link(href='#') Закупки 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title
+                li.menu-base__item
+                    a.menu-base__link(href='#') Инвестиции 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title
+                li.menu-base__item
+                    a.menu-base__link(href='#') Контакты 
+                        i.fa.fa-angle-down.margin-left-1
+                    ul.menu-base
+                        each title in ['Пункт 1', 'Пункт 2', 'Пункт 3']
+                            li.menu-base__item
+                                a.menu-base__link(href='#')= title

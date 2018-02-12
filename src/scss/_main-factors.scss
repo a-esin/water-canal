@@ -1,0 +1,17 @@
+.main-factors {
+    background: url(../images/waves.png) no-repeat 50% 0%;
+    text-align: center;
+    margin-top: rem-calc(20);
+}
+
+.main-factors__number {
+    font-size: rem-calc(56);
+    font-weight: 300;
+    color: #077cce;
+}
+
+.main-factors__text {
+    color: #077cce;
+    font-size: rem-calc(20);
+    margin-top: rem-calc(-18);
+}

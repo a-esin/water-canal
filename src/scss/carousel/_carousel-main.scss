@@ -1,0 +1,32 @@
+.carousel-main__item {
+  background: center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  display: none;
+  padding: 1rem;
+  &:first-child {
+    display: block;
+  }
+}
+
+.carousel-main__content {
+  color: #fff;
+  padding-top: rem-calc(69);
+}
+
+.carousel-main__title {
+  font-size: rem-calc(40);
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.carousel-main__text {
+  font-size: rem-calc(16);
+  margin-bottom: rem-calc(37);
+}
+
+.carousel-main__button {
+  font-size: rem-calc(12);
+  text-transform: uppercase;
+  font-weight: lighter;
+}

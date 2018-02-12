@@ -1,0 +1,32 @@
+a {
+  -webkit-transition: color 300ms ease-in-out;
+  -moz-transition: color 300ms ease-in-out;
+  -ms-transition: color 300ms ease-in-out;
+  -o-transition: color 300ms ease-in-out;
+  transition: color 300ms ease-in-out;
+}
+
+table {
+  margin-bottom: 6 * $global-margin;
+}
+
+.button {
+    border: 1px solid #fff;
+    letter-spacing: rem-calc(1);
+}
+
+.button:hover, .button:focus {
+    color: #333;
+}
+
+.font-size-13 {
+    font-size: rem-calc(13);
+}
+
+a.text-primary, p.text-primary {
+    color: #077cce;
+}
+
+h3, h4 {
+  font-weight: bold;
+}

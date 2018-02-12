@@ -1,0 +1,26 @@
+.interview {
+    margin-top: rem-calc(45);
+}
+
+.interview__text {
+    font-family: 'Tinos';
+    font-size: rem-calc(18);
+    line-height: 1.4;
+    margin-bottom: rem-calc(12);
+}
+
+.interview__name {
+    margin-bottom: 0;
+    color: #077cce;
+    font-weight: bold;
+}
+
+.interview__position {
+    font-size: rem-calc(13);
+    margin-bottom: rem-calc(12);
+}
+
+.interview__link {
+    text-transform: uppercase;
+    color: #617d8d;
+}
