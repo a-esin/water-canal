@@ -77,7 +77,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 }
 
 .slick-prev {
-  left: 25.15rem;
+  left: 1rem;
   padding-left: rem-calc(8);
   border-radius: 0 100% 100% 0 / 0 50% 50%;
   [dir="rtl"] & {
@@ -87,7 +87,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 }
 
 .slick-next {
-  right: 29.35rem;
+  right: 1.7rem;
   padding-left: rem-calc(18);
   border-radius: 100% 0 0 100% / 50% 0 0 50%;
   [dir="rtl"] & {

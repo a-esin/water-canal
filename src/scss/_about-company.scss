@@ -1,30 +1,39 @@
-.phone {
-    text-align: center;
-}
-
-.phone__hot-line {
+.about-company__hot-line {
     text-transform: uppercase;
     font-size: rem-calc(16);
     font-weight: bold;
-    margin-top: rem-calc(14);
+    margin-top: rem-calc(5);
     margin-bottom: rem-calc(6);
     line-height: 1.4;
 }
 
-.phone__phone {
+.about-company__phone {
     color: #077cce;
     font-size: rem-calc(24);
     font-weight: bold;
     margin-bottom: 0;
 }
 
-.phone__free {
+.about-company__free {
     font-size: rem-calc(12);
     text-transform: uppercase;
     margin-bottom: rem-calc(12);
 }
 
-.phone__email {
+.about-company__email {
     color: #077cce;
     font-size: rem-calc(16);
+}
+
+.about-company__image {
+    margin-top: rem-calc(-84);
+    margin-bottom: rem-calc(-10);
+}
+
+.about-company__text {
+    z-index: 10;
+}
+
+.about-company__read {
+    margin-bottom: rem-calc(15);
 }

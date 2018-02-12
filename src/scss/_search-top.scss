@@ -29,6 +29,26 @@ button.search-top__button {
   background: #eff4f8;
 }
 
+button.search-top__button:focus {
+  outline: none;
+}
+
+.search-top__input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.search-top__input:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.search-top__input:focus:-moz-placeholder {
+  opacity: 0;
+}
+
+.search-top__input:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
 @include breakpoint(medium only) {
   .search-top {
     margin: 6 * $global-margin 0 0;

@@ -1,5 +1,7 @@
 .interview {
-    margin-top: rem-calc(45);
+    padding-top: rem-calc(32);
+    margin-top: rem-calc(10);
+    background: #fff;
 }
 
 .interview__text {
@@ -23,4 +25,10 @@
 .interview__link {
     text-transform: uppercase;
     color: #617d8d;
+}
+
+.interview__quot {
+    position: relative;
+    bottom: rem-calc(43);
+    color: #077cce;
 }

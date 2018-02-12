@@ -104,5 +104,8 @@
         $(".x-carousel-events").find(".slick-dots")
             .addClass("slick-dots_events");
 
+        $(".x-carousel-main").find(".slick-dots")
+            .addClass("show-for-medium");
+
     });
 })(jQuery);

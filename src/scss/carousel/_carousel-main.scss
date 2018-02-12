@@ -30,3 +30,16 @@
   text-transform: uppercase;
   font-weight: lighter;
 }
+
+@include breakpoint(small only) {
+
+  .carousel-main__content {
+    padding-top: rem-calc(50);
+    text-align: center;
+  }
+
+  .carousel-main__title {
+    font-size: rem-calc(30);
+  }
+
+}
