@@ -1,3 +1,9 @@
+@include breakpoint(small only) {
+    .event {
+        margin-top: rem-calc(20);
+    }
+}
+
 .event__image {
     margin-top: rem-calc(10);
 }

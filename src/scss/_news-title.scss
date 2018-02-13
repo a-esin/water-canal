@@ -17,3 +17,10 @@
     color: #fff;
     background: #0f73b8;
 }
+
+@include breakpoint(small only) {
+    .news-title {
+        display: block;
+        text-align: center;
+    }
+}

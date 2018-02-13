@@ -162,6 +162,13 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   background: #e91b27;
 }
 
+@include breakpoint(small only) {
+  .slick-dots_events {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
 .slick-prev_main-factors {
   left: 0;
 }
