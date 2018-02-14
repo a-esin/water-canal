@@ -1,0 +1,25 @@
+.button-up {
+    color: #077cce;
+    position: relative;
+    border: 2px solid #e1e9ee;
+    padding: rem-calc(4);
+}
+
+.button-up:hover {
+    color: #fff;
+    background: #077cce;
+    border: 2px solid #077cce;
+}
+
+@include breakpoint(small only) {
+    .button-up {
+        top: 2rem;
+    }
+}
+
+@include breakpoint(medium) {
+    .button-up {
+        left: 5.5rem;
+        bottom: 3rem;
+    }
+}

@@ -65,7 +65,27 @@
             fade: false,
             swipeToSlide: true,
             prevArrow: '<i class="slick-prev slick-prev_main-factors fa fa-angle-left fa-3x"> </i>',
-            nextArrow: '<i class="slick-next slick-next_main-factors fa fa-angle-right fa-3x"> </i>'
+            nextArrow: '<i class="slick-next slick-next_main-factors fa fa-angle-right fa-3x"> </i>',
+            responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 800,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 640,
+              settings: {
+                slidesToShow: 1                
+              }
+            }
+          ]
         });
 
        
@@ -106,6 +126,13 @@
 
         $(".x-carousel-main").find(".slick-dots")
             .addClass("show-for-medium");
+
+        $('.button-up').click(function () {
+            $('body, html').animate({
+                scrollTop: 0
+            }, 1200);
+            return false;
+        });
 
     });
 })(jQuery);
