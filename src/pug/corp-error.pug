@@ -1,0 +1,21 @@
+extends corp-index
+
+block page
+    block content
+        .grid-container.page-error: .grid-x.grid-padding-x: .cell
+            p: img(src="./i/404.png", alt="Страница не найдена", width="")
+            p.page-error__text-1 К сожалению, запрашиваемая страница не найдена
+            p.page-error__text-2 Попробуйте найти интересующий Вас материал через поиск, или свяжитесь с нами.
+            form
+                .grid-x.grid-padding-x.align-center
+                    .small-24.medium-9.cell
+                        input(type="text", placeholder="Поиск").page-error__input
+                    .small-24.medium-2.cell.text-left
+                        input(type="submit", value="").button.page-error__button
+            .grid-x.grid-padding-x.page-error__links
+                .small-24.medium-12.cell.text-right
+                    a.news-title.text-primary.page-error__main На главную 
+                        i.fa.fa-angle-right.news-title__arrow
+                .small-24.medium-12.cell.text-left
+                    a.news-title.text-primary.page-error__contacts Контакты 
+                        i.fa.fa-angle-right.news-title__arrow

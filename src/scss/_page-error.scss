@@ -1,0 +1,58 @@
+.page-error {
+    text-align: center;
+    margin-top: 8.6rem;
+}
+
+.page-error__text-1 {
+    font-size: rem-calc(23);
+    margin-top: rem-calc(29);
+    font-weight: bold;
+    margin-bottom: rem-calc(8);
+}
+
+.page-error__text-2 {
+    font-size: rem-calc(13);
+}
+
+.page-error__button {
+    background: url(../images/search.png) no-repeat;
+    height: rem-calc(46);
+    width: rem-calc(77);
+}
+
+.page-error__input {
+    background-color: #fff;
+    border: 2px solid #d4e0e7;
+    height: rem-calc(46);
+    padding-left: rem-calc(17);
+}
+
+.page-error__input::-webkit-input-placeholder {
+    color: #000;
+}
+
+.page-error__input::-moz-placeholder {
+    color: #000;
+}
+
+.page-error__input:-moz-placeholder {
+    color: #000;
+}
+
+.page-error__input:-ms-input-placeholder {
+    color: #000;
+}
+
+.page-error__links {
+    margin-top: rem-calc(16);
+}
+
+@include breakpoint(medium) {
+    .page-error__main {
+        margin-right: rem-calc(19);
+    }
+
+    .page-error__contacts {
+        margin-left: rem-calc(20);
+    }
+}
