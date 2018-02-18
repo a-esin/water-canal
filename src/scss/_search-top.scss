@@ -54,3 +54,10 @@ button.search-top__button:focus {
     margin: 6 * $global-margin 0 0;
   }
 }
+
+@include breakpoint(small only) {
+  .search-top__input {
+    font-size: remc-calc(15);
+    text-transform: uppercase;
+  }
+}

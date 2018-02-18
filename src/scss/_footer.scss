@@ -7,3 +7,13 @@
     font-size: rem-calc(13);
     color: #8ca9b9;
 }
+
+@include breakpoint(small only) {
+    .footer {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .footer__text_margin {
+        margin-top: rem-calc(21);
+    }
+}

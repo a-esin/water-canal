@@ -31,5 +31,82 @@
         .small-5.cell.text-center.show-for-medium
             a(href="tel:+74955140211").header-phone +7 (495) 514-02-11 
         .small-12.cell.text-right.hide-for-large
-            a(href="#" title="Меню")
-                img(src="./images/menu.png", alt="Меню")      
+            a(href="#", title="Меню", data-open="modal")
+                img(src="./images/menu.png", alt="Меню")
+
+.reveal.reveal_mobile(data-reveal id="modal")
+    form.search-top.input-group                
+        .input-group-button.input-group-button_background
+            button.search-top__button.fa.fa-search(type="submit")
+        input.search-top__input.input-group-field(placeholder="Поиск", type="text")
+    button.close-button(data-close aria-label="Close modal" type="button").hide
+        span(aria-hidden="true").close-button__span &times;
+    
+    ul.menu-base.background-main
+        li.menu-base__item
+            a.menu-base__link(href='#') О компании 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+        li.menu-base__item
+            a.menu-base__link(href='#') Потребителям 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+        li.menu-base__item
+            a.menu-base__link(href='#') Регионы присутствия
+        li.menu-base__item
+            a.menu-base__link(href='#') Пресс-центр 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+        li.menu-base__item
+            a.menu-base__link(href='#') Закупки 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+        li.menu-base__item
+            a.menu-base__link(href='#') Инвестиции 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+        li.menu-base__item
+            a.menu-base__link(href='#') Контакты 
+                i.fa.fa-angle-down.margin-left-1
+            ul.menu-base
+                each title in ['Приемная', 'Департамент по связям с общественностью', 'Дирекция по взаимодействию с органами власти', 'Департамент экономической безопасности']
+                    li.menu-base__item
+                        a.menu-base__link(href='#')= title
+    div
+        a(href="tel:+74955140211").header-phone +7 (495) 514-02-11
+    div
+        a.text-medium-gray.social-network
+            i.fa-stack.fa-lg
+                i.fa.fa-circle.fa-stack-2x
+                i.fa.fa-youtube-play.fa-stack-1x.fa-inverse
+        a.text-medium-gray.social-network
+            i.fa-stack.fa-lg
+                i.fa.fa-circle.fa-stack-2x
+                i.fa.fa-facebook.fa-stack-1x.fa-inverse
+        a.text-medium-gray.social-network
+            i.fa-stack.fa-lg
+                i.fa.fa-circle.fa-stack-2x
+                i.fa.fa-instagram.fa-stack-1x.fa-inverse
+        a.text-medium-gray.social-network
+            i.fa-stack.fa-lg
+                i.fa.fa-circle.fa-stack-2x
+                i.fa.fa-vk.fa-stack-1x.fa-inverse
+        a.text-medium-gray.social-network
+            i.fa-stack.fa-lg
+                i.fa.fa-circle.fa-stack-2x
+                i.fa.fa-twitter.fa-stack-1x.fa-inverse

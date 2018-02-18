@@ -30,3 +30,7 @@ a.text-primary, p.text-primary {
 h3, h4 {
   font-weight: bold;
 }
+
+a:focus, .reveal:focus {
+  outline: none;
+}

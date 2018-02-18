@@ -367,7 +367,7 @@ $closebutton-size: (
   medium: 2em,
 );
 $closebutton-lineheight: 1;
-$closebutton-color: $dark-gray;
+$closebutton-color: #fff;
 $closebutton-color-hover: $black;
 
 // 16. Drilldown
@@ -747,7 +747,7 @@ $responsive-embed-ratios: (
 $reveal-background: $white;
 $reveal-width: 600px;
 $reveal-max-width: $global-width;
-$reveal-padding: 6 * $global-padding;
+$reveal-padding: 0;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;

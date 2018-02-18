@@ -37,3 +37,10 @@
 .about-company__read {
     margin-bottom: rem-calc(15);
 }
+
+@include breakpoint(small only) {
+    .about-company__block-3 {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}

@@ -20,7 +20,15 @@
             fade: true,
             swipeToSlide: true,
             prevArrow: '<i class="slick-prev fa fa-angle-left fa-3x"> </i>',
-            nextArrow: '<i class="slick-next fa fa-angle-right fa-3x"> </i>'
+            nextArrow: '<i class="slick-next fa fa-angle-right fa-3x"> </i>',
+            responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    arrows: false,
+                }
+            }
+            ]
         });
 
 

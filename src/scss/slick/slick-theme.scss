@@ -96,14 +96,6 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   }
 }
 
-@include breakpoint(small only) {
-  .slick-prev, .slick-next {
-    display: none;
-  }
-  .slick-prev_main-factors, .slick-next_main-factors {
-    display: block;
-  }
-}
 
 /* Dots */
 
