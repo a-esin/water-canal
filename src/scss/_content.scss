@@ -1,0 +1,30 @@
+.content p {
+    font-size: rem-calc(15);
+    line-height: rem-calc(25);
+    margin-bottom: rem-calc(18);
+}
+
+.content a {
+    color: #077cce;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    text-decoration: none;
+}
+
+.content li {
+    font-size: rem-calc(15);
+    list-style-type: none;
+    padding-left: rem-calc(6);
+    margin-bottom: rem-calc(14);
+}
+
+.content ul {
+    list-style-image: url(../images/marker.png);
+    margin: rem-calc(41 34);
+}
+
+.content ul > li > ul {
+    margin: rem-calc(15 38);
+}

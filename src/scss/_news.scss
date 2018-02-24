@@ -1,0 +1,6 @@
+@include breakpoint(medium) {
+    .news {
+        position: relative;
+        left: rem-calc(14);
+    }
+}

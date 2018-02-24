@@ -1,13 +1,14 @@
 .padding-top-4.padding-bottom-3.background-white
     .grid-container: .grid-x.grid-padding-x.align-middle
-        .small-12.medium-7.cell
-            img(src="./images/logo.png", alt="Лого")
-        .small-7.cell.show-for-medium
+        .small-12.large-7.cell
+            a(href="/" title="Перейти на главную страницу")
+                img(src="./images/logo.png", alt="Лого")
+        .small-7.cell.show-for-large
             form.search-top.input-group                
                 .input-group-button.input-group-button_background
                     button.search-top__button.fa.fa-search(type="submit")
                 input.search-top__input.input-group-field(placeholder="Поиск", type="text")
-        .small-5.cell.text-right.show-for-medium
+        .small-5.cell.text-right.show-for-large
             a.text-medium-gray.social-network
                 i.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
@@ -28,7 +29,7 @@
                 i.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
                     i.fa.fa-twitter.fa-stack-1x.fa-inverse
-        .small-5.cell.text-center.show-for-medium
+        .small-5.cell.text-center.show-for-large
             a(href="tel:+74955140211").header-phone +7 (495) 514-02-11 
         .small-12.cell.text-right.hide-for-large
             a(href="#", title="Меню", data-open="modal")

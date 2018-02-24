@@ -1,0 +1,14 @@
+.left-menu {
+    list-style-type: none;
+    margin-left: 0;
+    border-top: 4px solid #d91414;
+}
+
+.left-menu__item {
+    border-bottom: 1px solid #e1e9ee;
+    padding: rem-calc(11 36);
+}
+
+.left-menu__link {
+    color: #000;
+}

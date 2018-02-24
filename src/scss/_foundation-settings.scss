@@ -104,7 +104,7 @@ $global-margin: 0.25rem;
 $global-padding: 0.25rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
-$global-weight-bold: 500;
+$global-weight-bold: 700;
 $global-radius: rem-calc(4);
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
@@ -147,15 +147,15 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: $body-font-family;
-$header-font-weight: 300;
+$header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.5;
-$header-margin-bottom: 6 * $global-margin;
+$header-lineheight: 1.1;
+$header-margin-bottom: rem-calc(20);
 $header-styles: (
   small: (
-    'h1': ('font-size': 2.5rem, 'margin-bottom': 0, 'line-height': 1),
+    'h1': ('font-size': 2.5rem, 'line-height': 1),
     'h2': ('font-size': 2rem, 'line-height': 1.1),
     'h3': ('font-size': 1.7rem, 'line-height': 1.2),
     'h4': ('font-size': 1.5rem, 'line-height': 1.3),
@@ -163,7 +163,7 @@ $header-styles: (
     'h6': ('font-size': 1.1rem),
   ),
   medium: (
-    'h1': ('font-size': 36, 'margin-bottom': 0, 'line-height': 1),
+    'h1': ('font-size': 36, 'line-height': 1.1),
     'h2': ('font-size': 29, 'line-height': 1.1),
     'h3': ('font-size': 23, 'line-height': 1.2),
     'h4': ('font-size': 19, 'line-height': 1.3),
@@ -279,15 +279,15 @@ $badge-font-size: 0.8rem;
 // 10. Breadcrumbs
 // ---------------
 
-$breadcrumbs-margin: $global-margin * 12 0  $global-margin * 6 0;
+$breadcrumbs-margin: rem-calc(20 49);
 $breadcrumbs-item-font-size: rem-calc(12);
-$breadcrumbs-item-color: $secondary-color;
-$breadcrumbs-item-color-current: $black;
+$breadcrumbs-item-color: #89959c;
+$breadcrumbs-item-color-current: #2a2e36;
 $breadcrumbs-item-color-disabled: get-color(medium-gray);
-$breadcrumbs-item-margin: 0.75rem;
-$breadcrumbs-item-uppercase: true;
+$breadcrumbs-item-margin: rem-calc(4);
+$breadcrumbs-item-uppercase: false;
 $breadcrumbs-item-separator: true;
-$breadcrumbs-item-separator-item: '/';
+$breadcrumbs-item-separator-item: '';
 $breadcrumbs-item-separator-item-rtl: '\\';
 $breadcrumbs-item-separator-color: get-color(medium-gray);
 
