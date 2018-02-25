@@ -25,6 +25,28 @@
     margin: rem-calc(41 34);
 }
 
-.content ul > li > ul {
+.content ul > li > ul, ol > li > ol {
     margin: rem-calc(15 38);
+}
+
+.content ol {
+    list-style-type: none; 
+    counter-reset: num;
+}
+
+.content ol li:before {
+    content: counter(num) '. ';
+    counter-increment: num;
+    color: #077cce;
+}
+
+.content__important-text {
+    font-weight: bold;
+    background: #d0ecff;
+    padding: rem-calc(36 38);
+}
+
+.content__image-right {
+    float: right;
+    margin-left: rem-calc(20);
 }
