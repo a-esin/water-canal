@@ -46,7 +46,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   z-index: 1;
   display: block;
   position: absolute;
-  top: 50%;
+  top: 13.85rem;
   cursor: pointer;
   color: #333;
   background: #fff;
@@ -170,6 +170,10 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 
 .slick-next_main-factors {
   right: 0;
+}
+
+.slick-prev_main-factors, .slick-next_main-factors {
+  top: 50%;
 }
 
 .slick-prev_main-factors, .slick-next_main-factors {

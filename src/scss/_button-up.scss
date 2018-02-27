@@ -1,25 +1,24 @@
 .button-up {
-    color: #077cce;
+    background: url(../images/arrow-up.png) no-repeat right;
+    height: rem-calc(40);
+    display: block;
     position: relative;
-    border: 2px solid #e1e9ee;
-    padding: rem-calc(4);
+    left: 5.5rem;
+    bottom: 3rem;
 }
 
 .button-up:hover {
-    color: #fff;
-    background: #077cce;
-    border: 2px solid #077cce;
+    background: url(../images/arrow-up-hover.png) no-repeat right;
 }
 
-@include breakpoint(small only) {
+@include breakpoint(medium down) {
     .button-up {
         top: 2rem;
+        left: 0;
+        bottom: 0;
+        background-position: center;
     }
-}
-
-@include breakpoint(medium) {
-    .button-up {
-        left: 5.5rem;
-        bottom: 3rem;
+    .button-up:hover {
+        background-position: center;
     }
 }
