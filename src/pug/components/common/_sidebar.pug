@@ -6,7 +6,13 @@
     ul.left-menu
         li: a(href='#' title='').left-menu__link История компании
         li: a(href='#' title='').left-menu__link Структура компании
-        li: a(href='#' title='').left-menu__link Руководство
+        li
+            a(href='#' title='').left-menu__link.left-menu__link_selected Руководство
+                i.fa.fa-caret-down.left-menu__arrow.left-menu__arrow_active
+            ul.left-menu__dropdown
+                li: a(href="#" title='').left-menu__dropdown-link Правление
+                li: a(href="#" title='').left-menu__dropdown-link.left-menu__dropdown-link_selected Менеджмент
+                li: a(href="#" title='').left-menu__dropdown-link Управляющий комитет
         li: a(href='#' title='').left-menu__link Ключевые показатели
         li: a(href='#' title='').left-menu__link Нормативно-правовая база
         li: a(href='#' title='').left-menu__link Приоритетные напрвления деятельности

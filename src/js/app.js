@@ -96,6 +96,24 @@
           ]
         });
 
+
+        $('.slider-for').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          fade: true,
+          asNavFor: '.slider-nav'
+        });
+        
+        $('.slider-nav').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for',
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true
+        });
+
        
 
         /**
@@ -140,6 +158,11 @@
                 scrollTop: 0
             }, 1200);
             return false;
+        });
+
+        $('.left-menu__link_selected').click(function() {
+            $('.left-menu__dropdown').toggleClass('hide');
+            $('.left-menu__arrow').toggleClass('left-menu__arrow_active');
         });
 
     });

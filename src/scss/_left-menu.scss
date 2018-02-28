@@ -7,10 +7,48 @@
 .left-menu__link {
     color: #000;
     border-bottom: 1px solid #e1e9ee;
-    padding: rem-calc(11 36);
+    padding: rem-calc(11 19);
     display: block;
 }
 
 .left-menu__link:hover {
     background: #d0ecff;
+}
+
+.left-menu__dropdown {
+    list-style-type: none;
+    margin-left: 0;
+    background: #eff4f8;
+}
+
+.left-menu__dropdown-link {
+    color: #000;
+    padding-left: rem-calc(40);
+    display: block;
+    line-height: rem-calc(41);
+}
+
+.left-menu__dropdown-link:hover, .left-menu__dropdown-link_selected {
+    color: #077cce;
+}
+
+.left-menu__link_selected, .left-menu__link_selected:hover, .left-menu__link_selected:focus {
+    background: #1074b9;
+    color: #fff;
+}
+
+.left-menu__arrow {
+    color: #000;
+    margin-top: 3px;
+    float: right;
+    margin-top: 4px;
+}
+
+.left-menu__arrow_active {
+    color: #fff;
+    -moz-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg); 
+    -webkit-transform: rotate(180deg); 
+    -o-transform: rotate(180deg); 
+    transform: rotate(180deg);
 }
