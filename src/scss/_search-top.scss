@@ -49,6 +49,10 @@ button.search-top__button:focus {
   opacity: 0;
 }
 
+.search-top__input:focus {
+  background-color: #eff4f8;
+}
+
 @include breakpoint(medium only) {
   .search-top {
     margin: 6 * $global-margin 0 0;

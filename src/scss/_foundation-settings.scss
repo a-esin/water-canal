@@ -450,7 +450,7 @@ $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
 $input-background: #eff4f8;
-$input-background-focus: #eff4f8;
+$input-background-focus: #fff;
 $input-background-disabled: $light-gray;
 $input-border: 1px solid $medium-gray;
 $input-border-focus: 1px solid $dark-gray;
@@ -809,11 +809,11 @@ $table-stack-breakpoint: medium;
 // --------
 
 $tab-margin: 0;
-$tab-background: $white;
+$tab-background: transparent;
 $tab-color: $secondary-color;
-$tab-background-active: $light-gray;
+$tab-background-active: transparent;
 $tab-active-color: $secondary-color;
-$tab-item-font-size: rem-calc(12);
+$tab-item-font-size: rem-calc(15);
 $tab-item-background-hover: $white;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;

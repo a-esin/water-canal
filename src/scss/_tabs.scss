@@ -1,0 +1,20 @@
+.content ul.tabs {
+    margin: 0;
+    list-style-image: none;
+}
+
+.content a.tabs__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    background: #eff4f8;
+    border: 1px solid #bccfda;
+}
+
+.tabs-title.is-active, .tabs-title:hover {
+    border-top: 2px solid #1074b9;
+}
+
+.content li.tabs-title {
+    padding-left: 0;
+}
