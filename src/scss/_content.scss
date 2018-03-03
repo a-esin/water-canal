@@ -50,3 +50,54 @@
     float: right;
     margin-left: rem-calc(20);
 }
+
+.content__right-block {
+    border: 3px solid #d0ecff;
+    padding: rem-calc(26 36);
+    float: right;
+    width: 22rem;
+    margin-left: rem-calc(10);
+}
+
+.content__right-block p {
+    font-weight: bold;
+    font-size: rem-calc(18);
+    line-height: rem-calc(27);
+    margin-bottom: rem-calc(32);
+}
+
+.content__right-block a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #617e8e;
+}
+
+.content__right-block a:hover {
+    .read-arrow {
+        color: #fff;
+        background: #8198a5;
+    }
+}
+
+.content__left-block {
+    float: left;
+    margin-right: rem-calc(19);
+    border-bottom: 1px solid #e1e9ee;
+    margin-bottom: rem-calc(20);
+}
+
+.content p.content__name {
+    font-size: rem-calc(14);
+    color: #077cce;
+    margin-bottom: rem-calc(-6);
+    font-weight: bold;
+}
+
+.content p.content__position {
+    font-size: rem-calc(13);
+    margin-bottom: rem-calc(8);
+}
+
+.content p.content__left-block-image {
+    margin-bottom: rem-calc(10);
+}
