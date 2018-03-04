@@ -15,13 +15,14 @@ table {
   letter-spacing: rem-calc(1);
 }
 
-.button:hover, .button:focus {
-  color: #333;
-}
-
 .font-size-13 {
   font-size: rem-calc(13);
 }
+
+.font-size-16 {
+  font-size: rem-calc(16);
+}
+
 
 a.text-primary, p.text-primary {
   color: #077cce;

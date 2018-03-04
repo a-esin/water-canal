@@ -49,9 +49,26 @@
     font-weight: bold;
     margin: 0 auto;
     display: block;
+    padding: rem-calc(12);
+}
+
+.subscribe__button:hover, .subscribe__button:focus {
+    color: #fff;
+    background: #e91b27;
+    outline: none;
 }
 
 .subscribe__label {
     font-size: rem-calc(12);
     color: #617d8d;
+}
+
+.subscribe__label-2 {
+    font-size: rem-calc(12);
+    margin-top: rem-calc(7);
+    line-height: rem-calc(15);
+}
+
+.subscribe__checkbox {
+    margin-bottom: 0;
 }

@@ -1,0 +1,30 @@
+.search-results {
+    background: #fff;
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.search-results__sort {
+    font-size: rem-calc(13);
+    margin-bottom: 0;
+}
+
+.search-results__button {
+    padding: rem-calc(9 18);
+    margin-left: rem-calc(6);
+    margin-bottom: 0;
+    font-size: rem-calc(13);
+    background: #eff4f8;
+    color: #000;
+    border: 1px solid #bccfda;
+}
+
+.search-results__button_active {
+    background: #1074b9;
+    color: #fff;
+    border: 1px solid #1074b9;
+}
+
+.search-results__nothing {
+    font-size: rem-calc(19);
+    margin-top: rem-calc(29);
+}
