@@ -28,3 +28,18 @@
     font-size: rem-calc(19);
     margin-top: rem-calc(29);
 }
+
+.search-results__title {
+    margin-top: rem-calc(30);
+    margin-bottom: rem-calc(16);
+}
+
+.search-results__text {
+    font-size: rem-calc(13);
+    line-height: rem-calc(22);
+}
+
+.search-results__word {
+    background: #d0ecff;
+    padding: rem-calc(2);
+}
