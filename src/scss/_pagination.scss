@@ -1,0 +1,21 @@
+.pagination {
+    margin-top: rem-calc(49);
+}
+
+.pagination-next a, .pagination-previous {
+    color: #077cce;
+    text-decoration: underline;
+}
+
+.pagination-next a:hover, .pagination-previous:hover {
+    text-decoration: none;
+    background: transparent;
+}
+
+.pagination .disabled {
+    padding: 0;
+}
+
+.pagination .pagination-previous {
+    padding: rem-calc(0 10);
+}

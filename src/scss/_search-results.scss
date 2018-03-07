@@ -37,9 +37,30 @@
 .search-results__text {
     font-size: rem-calc(13);
     line-height: rem-calc(22);
+    margin-bottom: rem-calc(12);
 }
 
 .search-results__word {
     background: #d0ecff;
     padding: rem-calc(2);
+}
+
+.search-results__link {
+    font-size: rem-calc(12);
+    color: #89959c;
+    padding-left: rem-calc(9);
+}
+
+.search-results__arrow {
+    padding-left: rem-calc(7);
+    font-size: rem-calc(7);
+    color: #89959c;
+}
+
+.search-results__title a {
+    color: #000;
+}
+
+.search-results__title a:hover {
+    color: #077cce;
 }
