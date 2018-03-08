@@ -19,10 +19,17 @@ table {
   font-size: rem-calc(13);
 }
 
+.font-size-14 {
+  font-size: rem-calc(14);
+}
+
 .font-size-16 {
   font-size: rem-calc(16);
 }
 
+.content p.font-size-18 {
+  font-size: rem-calc(18);
+}
 
 a.text-primary, p.text-primary {
   color: #077cce;
