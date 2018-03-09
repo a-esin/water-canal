@@ -1,3 +1,8 @@
+.content {
+    border-bottom: 1px solid #f3f4f6;
+    padding-bottom: 4.2rem;
+}
+
 .content p {
     font-size: rem-calc(15);
     line-height: rem-calc(25);
@@ -101,3 +106,4 @@
 .content p.content__left-block-image {
     margin-bottom: rem-calc(10);
 }
+

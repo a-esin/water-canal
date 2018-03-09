@@ -45,3 +45,14 @@
         margin-top: 2rem;
     }
 }
+
+.about-company__link {
+    text-transform: uppercase;
+}
+
+.about-company__link:hover {
+    .read-arrow {
+        color: #fff;
+        background: #8198a5;
+    }
+}

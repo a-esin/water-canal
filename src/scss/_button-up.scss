@@ -5,6 +5,8 @@
     position: relative;
     left: 5.5rem;
     bottom: 3rem;
+    width: rem-calc(40);
+    float: right;
 }
 
 .button-up:hover {
@@ -17,6 +19,8 @@
         left: 0;
         bottom: 0;
         background-position: center;
+        float: none;
+        margin: 0 auto;
     }
     .button-up:hover {
         background-position: center;

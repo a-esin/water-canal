@@ -39,3 +39,22 @@
     line-height: rem-calc(21);
     margin-bottom: rem-calc(8);
 }
+
+.news-detail__border {
+    border: 1px solid #e1e9ee;
+    padding: rem-calc(9 0);
+    text-align: center;
+}
+
+@include breakpoint(small only) {
+    .content a.news-detail__back {
+        font-size: rem-calc(12);
+    }
+    .content a.news-detail__print {
+        display: block;
+        margin-top: rem-calc(14);
+    }
+    .news-detail__border {
+        margin-bottom: rem-calc(20);
+    } 
+}
