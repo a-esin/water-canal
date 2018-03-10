@@ -1,0 +1,21 @@
+.section-news p {
+    font-size: rem-calc(13);
+}
+
+.section-news h3 {
+    margin-bottom: rem-calc(15);
+}
+
+.section-news hr {
+    margin-top: rem-calc(-5);
+    margin-bottom: rem-calc(15);
+}
+
+.content a.section-news__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.content a.section-news__link:hover {
+    color: #077cce;
+}

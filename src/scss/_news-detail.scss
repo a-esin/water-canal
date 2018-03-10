@@ -23,13 +23,20 @@
      content: url(../images/print-hover.png);
 }
 
-.news-detail__city {
+.content a.news-detail__city {
     font-size: rem-calc(11);
     border: 1px solid #bccfda;
     text-transform: uppercase;
     margin-left: rem-calc(8);
     padding: rem-calc(3 10);
     border-radius: rem-calc(4);
+    text-decoration: none;
+    color: #617d8d;
+}
+
+.content a.news-detail__city:hover {
+    background: #1074b9;
+    color: #fff;
 }
 
 .content p.news-detail__anons {

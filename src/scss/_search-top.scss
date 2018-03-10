@@ -13,6 +13,7 @@ $search-height: $global-lineheight * rem-calc($global-font-size) + 2 * $search-i
   line-height: $global-lineheight;
   height: $search-height;
   margin: 0;
+  background-color: #eff4f8;
   &:focus, &:hover {
     border: 0;
   }

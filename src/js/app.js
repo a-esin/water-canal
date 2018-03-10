@@ -165,5 +165,24 @@
             $('.left-menu__arrow').toggleClass('left-menu__arrow_active');
         });
 
+        $(function(){
+            $("#datepicker").datepicker({
+                dateFormat: "dd.mm.y",
+                monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+                dayNamesMin: [ "Вс","Пн","Вт","Ср","Чт","Пт","Сб"],
+                firstDay: 1
+            });
+        });
+
+        $(function(){
+            $("#datepicker-2").datepicker({
+                dateFormat: "dd.mm.y",
+                monthNames: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+                dayNamesMin: [ "Вс","Пн","Вт","Ср","Чт","Пт","Сб"],
+                firstDay: 1
+            });
+        });
+
+
     });
 })(jQuery);

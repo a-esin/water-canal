@@ -1,0 +1,48 @@
+.news-band {
+    background: #f7fafd;
+    border-bottom: 1px solid #e1e9ee;
+    padding: rem-calc(8 0 8 78);
+    margin-bottom: rem-calc(30);
+}
+
+.news-band__input {
+    width: rem-calc(110);
+    display: inline-block;
+    margin: rem-calc(0 3);
+    background: url(../images/calendar.png) 92% no-repeat;
+    padding-left: rem-calc(16);
+}
+
+.news-band__input-2 {
+    width: rem-calc(185);
+    display: inline-block;
+    margin: rem-calc(0 7);
+}
+
+.news-band__input, .news-band__input-2 {
+    font-size: rem-calc(14);
+}
+
+.news-band__input:focus, .news-band__input-2:focus {
+    border: 1px solid #1174b8;
+}
+
+.news-band__input::-webkit-input-placeholder, .news-band__input-2::-webkit-input-placeholder {
+  color: #000;
+}
+
+.news-band__input::-moz-placeholder, .news-band__input-2::-moz-placeholder {
+  color: #000;
+}
+
+.news-band__input:-moz-placeholder, .news-band__input-2:-moz-placeholder {
+  color: #000;
+}
+
+.news-band__input:-ms-input-placeholder, .news-band__input-2:-ms-input-placeholder {
+  color: #000;
+}
+
+.news-band__region {
+    margin-left: 10.6rem;
+}
