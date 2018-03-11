@@ -15,7 +15,6 @@
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1em;
 }
 .ui-widget .ui-widget {
@@ -25,14 +24,10 @@
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1em;
 }
-.ui-widget.ui-widget-content {
-    border: 1px solid #c5c5c5;
-}
+
 .ui-widget-content {
-    border: 1px solid #dddddd;
     background: #ffffff;
     color: #333333;
 }
@@ -58,13 +53,7 @@
 
 /* We use html here because we need a greater specificity to make sure disabled
 works properly when clicked or hovered */
-html .ui-button.ui-state-disabled:hover,
-html .ui-button.ui-state-disabled:active {
-    border: 1px solid #c5c5c5;
-    background: #f6f6f6;
-    font-weight: normal;
-    color: #454545;
-}
+
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited,
@@ -75,19 +64,21 @@ a:visited.ui-button,
     color: #454545;
     text-decoration: none;
 }
-.ui-state-hover,
-.ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover,
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
-    border: 1px solid #cccccc;
-    background: #ededed;
+    background-color: #0d639f;
     font-weight: normal;
     color: #2b2b2b;
 }
+
+.ui-state-hover, .ui-widget-content .ui-state-hover {
+    background-color: #d0ecff;
+}
+
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
@@ -111,8 +102,7 @@ a.ui-button:focus {
 a.ui-button:active,
 .ui-button:active,
 .ui-button.ui-state-active:hover {
-    border: 1px solid #003eff;
-    background: #007fff;
+    background: #1074b9;
     font-weight: normal;
     color: #ffffff;
 }
@@ -133,13 +123,11 @@ a.ui-button:active,
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-    border: 1px solid #dad55e;
-    background: #fffa90;
-    color: #777620;
+    background: #e91b27;
+    color: #fff;
 }
 .ui-state-checked {
-    border: 1px solid #dad55e;
-    background: #fffa90;
+    background: #e91b27;
 }
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,
@@ -193,34 +181,6 @@ a.ui-button:active,
 .ui-icon {
     width: 16px;
     height: 16px;
-}
-.ui-icon,
-.ui-widget-content .ui-icon {
-    background-image: url("images/ui-icons_444444_256x240.png");
-}
-.ui-widget-header .ui-icon {
-    background-image: url("../images/calendar-arrow-right.png");
-}
-.ui-state-hover .ui-icon,
-.ui-state-focus .ui-icon,
-.ui-button:hover .ui-icon,
-.ui-button:focus .ui-icon {
-    background-image: url("images/ui-icons_555555_256x240.png");
-}
-.ui-state-active .ui-icon,
-.ui-button:active .ui-icon {
-    background-image: url("images/ui-icons_ffffff_256x240.png");
-}
-.ui-state-highlight .ui-icon,
-.ui-button .ui-state-highlight.ui-icon {
-    background-image: url("images/ui-icons_777620_256x240.png");
-}
-.ui-state-error .ui-icon,
-.ui-state-error-text .ui-icon {
-    background-image: url("images/ui-icons_cc0000_256x240.png");
-}
-.ui-button .ui-icon {
-    background-image: url("images/ui-icons_777777_256x240.png");
 }
 
 /* positioning */
@@ -441,3 +401,13 @@ a.ui-button:active,
     -webkit-box-shadow: 0px 0px 5px #666666;
     box-shadow: 0px 0px 5px #666666;
 }
+
+.ui-widget thead {
+    background: #eff4f8;
+    color: #617e8e;
+}
+
+.ui-widget table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+

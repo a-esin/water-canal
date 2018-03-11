@@ -269,7 +269,6 @@
 /* Component containers
 ----------------------------------*/
 .ui-widget {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1em;
 }
 .ui-widget .ui-widget {
@@ -279,12 +278,9 @@
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-    font-family: Arial,Helvetica,sans-serif;
     font-size: 1em;
 }
-.ui-widget.ui-widget-content {
-    border: 1px solid #c5c5c5;
-}
+
 .ui-widget-content {
     border: 1px solid #dddddd;
     background: #ffffff;
@@ -312,13 +308,7 @@
 
 /* We use html here because we need a greater specificity to make sure disabled
 works properly when clicked or hovered */
-html .ui-button.ui-state-disabled:hover,
-html .ui-button.ui-state-disabled:active {
-    border: 1px solid #c5c5c5;
-    background: #f6f6f6;
-    font-weight: normal;
-    color: #454545;
-}
+
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited,
@@ -337,7 +327,6 @@ a:visited.ui-button,
 .ui-widget-header .ui-state-focus,
 .ui-button:hover,
 .ui-button:focus {
-    border: 1px solid #cccccc;
     background: #ededed;
     font-weight: normal;
     color: #2b2b2b;
@@ -387,12 +376,10 @@ a.ui-button:active,
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
-    border: 1px solid #dad55e;
     background: #fffa90;
     color: #777620;
 }
 .ui-state-checked {
-    border: 1px solid #dad55e;
     background: #fffa90;
 }
 .ui-state-highlight a,

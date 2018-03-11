@@ -19,3 +19,13 @@
 .pagination .pagination-previous {
     padding: rem-calc(0 10);
 }
+
+.content .pagination a {
+    color: #444;
+    text-decoration: none;
+}
+
+.content .pagination-next a {
+    color: #077cce;
+    text-decoration: underline;
+}

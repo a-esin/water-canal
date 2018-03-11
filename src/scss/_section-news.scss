@@ -19,3 +19,23 @@
 .content a.section-news__link:hover {
     color: #077cce;
 }
+
+.content.section-news {
+    padding-bottom: 0;
+}
+
+.section-news__city {
+    border: 1px solid #bbc8d0;
+    margin-right: 6rem;
+    padding-top: rem-calc(20);
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: rem-calc(185);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.content a.section-news__button {
+    color: #fff;
+    text-decoration: none;
+}

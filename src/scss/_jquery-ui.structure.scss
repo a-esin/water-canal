@@ -101,7 +101,7 @@
 }
 .ui-datepicker .ui-datepicker-header {
     position: relative;
-    padding: .2em 0;
+    padding: rem-calc(1 0);
 }
 .ui-datepicker .ui-datepicker-prev,
 .ui-datepicker .ui-datepicker-next {
@@ -109,16 +109,21 @@
     top: 2px;
     width: 1.8em;
     height: 1.8em;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.ui-datepicker .ui-datepicker-prev-hover,
-.ui-datepicker .ui-datepicker-next-hover {
+.ui-datepicker .ui-state-hover.ui-datepicker-prev-hover,
+.ui-datepicker .ui-state-hover.ui-datepicker-next-hover {
     top: 1px;
+    background-color: #0d639f;
 }
 .ui-datepicker .ui-datepicker-prev {
     left: 2px;
+    background-image: url("../images/calendar-arrow-left.png");
 }
 .ui-datepicker .ui-datepicker-next {
     right: 2px;
+    background-image: url("../images/calendar-arrow-right.png");
 }
 .ui-datepicker .ui-datepicker-prev-hover {
     left: 1px;
@@ -168,7 +173,7 @@
 .ui-datepicker td a {
     display: block;
     padding: .2em;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
 }
 .ui-datepicker .ui-datepicker-buttonpane {
