@@ -1,5 +1,27 @@
-@include breakpoint(medium) { 
-    .region-news {
-        margin-top: 3.5rem;
-    }
+.region-news__map {
+    background: url(../i/map-2.png) no-repeat right;
+    height: rem-calc(389);
+}
+
+.region-news__link {
+    color: #fff;
+    position: relative;
+    top: rem-calc(158);
+    left: 0.75rem;
+    display: block;
+    background: #1f3e76;
+}
+
+.region-news__link:hover, .region-news__link:focus {
+    color: #fff;
+}
+
+.region-news__number {
+    font-size: rem-calc(50);
+    font-weight: 300;
+}
+
+.region-news__text {
+    font-size: rem-calc(20);
+    line-height: rem-calc(18);
 }

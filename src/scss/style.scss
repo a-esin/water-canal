@@ -30,7 +30,7 @@ $minify: false !default;
 @import "slick/slick-theme";
 
 @import "carousel/carousel-main";
-@import "carousel/carousel-services";
+@import "carousel/carousel-events";
 @import "background";
 @import "checkbox-group";
 @import "dd";
@@ -72,3 +72,4 @@ $minify: false !default;
 @import "jquery-ui.theme";
 @import "news-band";
 @import "section-news";
+@import "background-event";

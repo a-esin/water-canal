@@ -6,11 +6,9 @@
 }
 
 .news-title__arrow {
+    font-size: rem-calc(14);
+    margin-left: rem-calc(5);
     color: #0f73b8;
-    background: #fff;
-    padding: rem-calc(1 8);
-    border-radius: rem-calc(14);
-    border: 1px solid #0f73b8;
 }
 
 .news-title__arrow:hover {
