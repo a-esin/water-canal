@@ -1,0 +1,19 @@
+.filters {
+    margin-top: rem-calc(38);
+    margin-bottom: rem-calc(33);
+}
+
+.content a.filters__link {
+    border: 1px solid #bccfda;
+    background: #eff4f8;
+    padding: rem-calc(10 26);
+    text-decoration: none;
+    color: #000;
+    font-size: rem-calc(13);
+    margin-right: rem-calc(7);
+}
+
+.content a.filters__link:hover, .content a.filters__link_active {
+    color: #fff;
+    background: #1074b9;
+}

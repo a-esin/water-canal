@@ -1,0 +1,21 @@
+.content ul.accordion {
+    list-style-image: none;
+}
+
+.content a.accordion-title {
+    color: #000;
+    text-decoration: none;
+    background: #eff4f8;
+    border: 1px solid #bccfda;
+    border-radius: 2px;
+}
+
+.content a.accordion-title:hover{
+    background: #d0ecff;
+}
+
+.is-active > a.accordion-title, .is-active > a.accordion-title:hover {
+    background: #1074b9;
+    border: 1px solid #1074b9;
+    color: #fff;
+}
