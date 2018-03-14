@@ -1,3 +1,9 @@
+.grid-container:not(.full)>.grid-padding-x.region-news {
+    background: #fff;
+    margin-right: 0;
+    margin-left: rem-calc(5);
+}
+
 .region-news__map {
     background: url(../i/map-2.png) no-repeat right;
     height: rem-calc(389);
