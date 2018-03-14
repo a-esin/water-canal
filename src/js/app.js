@@ -41,7 +41,7 @@
             slidesToScroll: 1,
             fade: true,
             swipeToSlide: true,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 7000,
             autoplayHoverPause: true
         });
@@ -152,6 +152,9 @@
 
         $(".x-carousel-main").find(".slick-dots")
             .addClass("show-for-medium");
+
+        $(".region-news").find(".slick-dots")
+            .addClass("slick-dots_events_margin");
 
         $('.button-up').click(function () {
             $('body, html').animate({

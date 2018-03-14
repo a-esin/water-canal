@@ -124,18 +124,20 @@ p «Росводоканал» является одним из лидеров �
                 br
                 | ежегодно
 
-ul.tabs#product-tabs-1(data-responsive-accordion-tabs="accordion medium-tabs" data-deep-link="true" data-update-history="false")
-    li.tabs-title.is-active
-        a(href='#first-tab' title='').tabs__link Первый таб
-    li.tabs-title
-        a(href='#second-tab' title='').tabs__link Второй таб
-    li.tabs-title
-        a(href='#third-tab' title='').tabs__link Третий таб
+section.new-tabs
 
-.tabs-content(data-tabs-content="product-tabs-1")
-    .tabs-panel.is-active#first-tab
-        | Текст 1
-    .tabs-panel#second-tab
-        | Текст 2
-    .tabs-panel#third-tab
-        | Текст 3
+    input(type="radio", name="tab", checked="checked")#tab-1
+    input(type="radio", name="tab")#tab-2
+    input(type="radio", name="tab")#tab-3
+
+    label(for="tab-1")#label-1 Первый таб
+    label(for="tab-2")#label-2 Второй таб
+    label(for="tab-3")#label-3 Третий таб
+
+    .clearfix
+
+    .new-tabs__content
+        #content-1 Текст 1
+        #content-2 Текст 2
+        #content-3 Текст 3
+

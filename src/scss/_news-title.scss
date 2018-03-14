@@ -5,6 +5,17 @@
     color: #2a2e36;
 }
 
+.news-title:after {
+    content: url(../images/arrow-title.png);
+    position: relative;
+    top: rem-calc(3);
+    left: rem-calc(8);
+}
+
+.news-title:hover:after {
+    content: url(../images/arrow-title-hover.png);
+}
+
 .news-title__arrow {
     font-size: rem-calc(14);
     margin-left: rem-calc(5);

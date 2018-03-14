@@ -185,3 +185,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 .slick-prev_main-factors:hover, .slick-next_main-factors:hover {
   color: #2d3139;
 }
+
+.slick-dots_events_margin {
+  margin-left: rem-calc(-5);
+}
