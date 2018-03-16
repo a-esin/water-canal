@@ -40,6 +40,7 @@
     font-size: rem-calc(14);
     height: rem-calc(36);
     border-radius: 0;
+    padding-left: rem-calc(20);
 }
 
 .subscribe__button {
@@ -50,12 +51,14 @@
     margin: 0 auto;
     display: block;
     padding: rem-calc(12);
+    border: 1px solid #1074b9;
 }
 
 .subscribe__button:hover, .subscribe__button:focus {
     color: #fff;
     background: #e91b27;
     outline: none;
+    border: 1px solid #e91b27;
 }
 
 .subscribe__label {
@@ -71,4 +74,14 @@
 
 .subscribe__checkbox {
     margin-bottom: 0;
+}
+
+.subscribe__link, .content a.subscribe__link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.subscribe__link:hover, .content a.subscribe__link:hover {
+    text-decoration: none;
+    color: #077cce;
 }

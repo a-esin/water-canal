@@ -1,0 +1,16 @@
+table {
+    font-size: rem-calc(15);
+    border-collapse: separate;
+}
+
+table tbody tr:nth-child(odd) {
+    background: #f7fafd;
+}
+
+table thead th:not(:first-child) {
+    text-align: center;
+}
+
+table tbody td:not(:first-child) {
+    text-align: center;
+}

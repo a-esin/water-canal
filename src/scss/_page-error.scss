@@ -25,6 +25,8 @@
     border: 2px solid #d4e0e7;
     height: rem-calc(46);
     padding-left: rem-calc(17);
+    border-radius: rem-calc(4);
+    font-size: rem-calc(16);
 }
 
 .page-error__input::-webkit-input-placeholder {

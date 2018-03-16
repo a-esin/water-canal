@@ -168,6 +168,9 @@
             $('.left-menu__arrow').toggleClass('left-menu__arrow_active');
         });
 
+
+        // Календарь
+
         $(function(){
             $("#datepicker").datepicker({
                 dateFormat: "dd.mm.y",
@@ -185,6 +188,9 @@
                 firstDay: 1
             });
         });
+
+        // Маска ввода номера телефона
+        $("#phone").mask("+7 (999) 999-99-99");
 
 
     });
