@@ -1,0 +1,11 @@
+extends corp-index
+
+block page
+    include components/common/_breadcrumbs
+    block content       
+        .padding-top-6.padding-bottom-6
+            .grid-container: .grid-x.grid-padding-x
+                .cell.small-24.medium-6
+                    include components/common/_sidebar-gallery
+                .cell.small-24.medium-18.background-white.content.section-news                 
+                    include components/corporate/_gallery
