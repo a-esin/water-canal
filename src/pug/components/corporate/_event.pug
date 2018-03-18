@@ -1,10 +1,57 @@
-.grid-x.grid-padding-x
-    .small-24.medium-23.medium-offset-1.cell
+.events-detail
+    .grid-x.grid-padding-x.align-center
 
-        .grid-x.grid-padding-x
-            .small-24.medium-12.cell.text-center.medium-text-left
-                a(href="#", title="Вернуться к списку новостей").news-detail__back
-                    img(src="./images/arrow-left.png", alt="Вернуться к списку новостей") 
-                    span.margin-left-5 Вернуться к списку новостей
-            .small-24.medium-12.cell.medium-text-right.text-center
-                a(href="#", title="Версия для печати").news-detail__print Версия для печати
+        .small-24.medium-22.cell
+
+            .grid-x.grid-padding-x
+                .small-24.medium-12.cell.text-center.medium-text-left
+                    a(href="#", title="Вернуться к списку новостей").news-detail__back
+                        img(src="./images/arrow-left.png", alt="Вернуться к списку новостей") 
+                        span.margin-left-5 Вернуться к списку новостей
+                .small-24.medium-12.cell.medium-text-right.text-center
+                    a(href="#", title="Версия для печати").news-detail__print Версия для печати
+
+            .grid-x.grid-padding-x
+                .small-24.cell
+                    h1.margin-bottom-8.margin-top-6 Городскому воронежскому
+                        br
+                        | водопроводу – 148 лет
+                    p: span.news-date 20 ноября 2017
+
+                    p.font-size-18
+                        strong Система водоснабжение Воронежа берет своё начало в 1869 году, когда городской голова Степан Лукьянович Кряжов решил потратить на «богоугодное дело» 150 тысяч рублей. Так в губернской столице появилась первая водокачка с паровой водоподъемной машиной, водонапорной башней с зарытыми в землю деревянными трубами. Этот год и принято считать временем появления в областном центре водопровода.
+
+                    p Для ветеранов и лучших сотрудников компании Совет молодых специалистов «РВК-Воронеж» подготовил торжественное собрание и праздничный концерт.
+
+                    p «Находясь рядом с теми, кто проработал на предприятии больше 30 лет, понимаешь &mdash; эти люди делали историю водоканала. Они открывали водоподъёмные станции и ликвидировали повреждения сетей, прокладывали трубопроводы и устраняли засоры коллекторов, обеспечивали город водой и любили свой труд. Мы из разных поколений, но именно молодежь продолжает сегодня большое и важное дело, которое начали они», &mdash; рассказала член совета молодых специалистов Олеся Стрекалина.
+
+                    include _slider
+
+                    p «Росводоканал Воронеж» провел торжественные мероприятия по случаю годовщины городского водопровода. Для посетителей и сотрудников в здании водоканала была организована шуточная викторина по истории водопровода в Воронеже. Правильно ответившие на вопрос получали памятный подарок и хорошее настроение. 
+                    
+                    p «Я совершенно случайно обратила внимание на мемориальную доску, закрепленную на здании водоканала. Внимательно прочитала и узнала интересный факт о появлении водопровода в городе. А ответ на вопрос викторины я знала, так что мне сегодня сильно повезло», &mdash; поделилась впечатлениями жительница Воронежа Ольга Иванова.
+
+            .grid-x.grid-margin-x.margin-top-16
+                .small-24.medium-12.cell.news-detail__border
+                    a(href="#", title="Предыдущая новость").news-detail__back
+                        img(src="./images/arrow-left.png", alt="Предыдущая новость") 
+                        span.margin-left-5 Предыдущая новость
+                .small-24.medium-12.cell.news-detail__border
+                    a(href="#", title="Следующая новость").news-detail__back
+                        span Следующая новость
+                        img(src="./images/arrow-right.png", alt="Следующая новость").margin-left-5
+
+            hr.margin-top-11.margin-bottom-2
+
+            .text-center.text-dark-gray
+                p.margin-bottom-1 Поделиться в соц сетях:
+
+                a(href="" title="Facebook"): img(src="./images/facebook.png", alt="Facebook")
+                a(href="" title="ВКонтакте"): img(src="./images/vk.png", alt="ВКонтакте").margin-left-3
+                a(href="" title="Twitter"): img(src="./images/twitter.png", alt="Twitter").margin-left-3
+
+
+
+
+
+

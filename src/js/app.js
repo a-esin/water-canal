@@ -100,18 +100,25 @@
         $('.slider-for').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
-          arrows: false,
+          arrows: true,
           fade: true,
-          asNavFor: '.slider-nav'
+          asNavFor: '.slider-nav',
+          prevArrow: '<i class="slick-prev slick-prev_for fa fa-angle-left fa-3x"> </i>',
+          nextArrow: '<i class="slick-next slick-next_for fa fa-angle-right fa-3x"> </i>',
         });
         
         $('.slider-nav').slick({
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
           asNavFor: '.slider-for',
           dots: true,
           centerMode: true,
-          focusOnSelect: true
+          focusOnSelect: true,
+          arrows: true,
+          prevArrow: '<i class="slick-prev slick-prev_nav fa fa-angle-left fa-3x"> </i>',
+          nextArrow: '<i class="slick-next slick-next_nav fa fa-angle-right fa-3x"> </i>',
+          infinite: true,
+          autoplay: true,
         });
 
        

@@ -48,7 +48,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   position: absolute;
   top: 13.85rem;
   cursor: pointer;
-  color: #333;
+  color: #9c9c9c;
   background: #fff;
   padding: rem-calc(15);
   border: none;
@@ -65,9 +65,7 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   transform: translate(0, -50%);
 
   &:hover, &:focus {
-    outline: none;
-    color: $slick-arrow-color-hover;
-    background: $slick-background-color-hover;
+    color: #333;
   }
 
   &.slick-disabled {
@@ -188,4 +186,29 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 
 .slick-dots_events_margin {
   margin-left: rem-calc(-5);
+}
+
+.slick-prev_for {
+  left: 0;
+}
+
+.slick-next_for {
+  right: 0;
+}
+
+.slick-prev_for, .slick-next_for {
+  top: 50%;
+}
+
+.slick-prev_nav, .slick-next_nav {
+  top: rem-calc(38);
+  background: transparent;
+}
+
+.slick-prev_nav {
+  left: rem-calc(-39);
+}
+
+.slick-next_nav {
+  right: rem-calc(-39);
 }

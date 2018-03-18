@@ -1,0 +1,15 @@
+.slider-for__text {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    color: #fff;
+    padding: rem-calc(25);
+    background: #000;
+    opacity: 0.6;
+}
+
+@include breakpoint(small only) {
+    .slider-for__text {
+        display: none;
+    }
+}
