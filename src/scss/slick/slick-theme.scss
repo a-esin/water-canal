@@ -212,3 +212,24 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
 .slick-next_nav {
   right: rem-calc(-39);
 }
+
+.slick-prev_for-modal, .slick-next_for-modal, .slick-prev_nav-modal, .slick-next_nav-modal {
+  background: transparent;
+}
+
+.slick-prev_for-modal, .slick-next_for-modal {
+  color: #8c8c8c;
+  top: 43%;
+}
+
+.slick-prev_for-modal:hover, .slick-next_for-modal:hover {
+  color: #fff;
+}
+
+.slick-prev_for-modal {
+  left: rem-calc(-71);
+}
+
+.slick-next_for-modal {
+  right: rem-calc(-63);
+}

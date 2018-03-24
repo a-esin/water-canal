@@ -356,19 +356,19 @@ $card-margin-bottom: 6 * $global-margin;
 $closebutton-position: right top;
 $closebutton-offset-horizontal: (
   small: 0.66rem,
-  medium: 1rem,
+  medium: 0,
 );
 $closebutton-offset-vertical: (
   small: 0.33em,
-  medium: 0.5rem,
+  medium: -1.5rem,
 );
 $closebutton-size: (
   small: 1.5em,
-  medium: 2em,
+  medium: 5em,
 );
 $closebutton-lineheight: 1;
-$closebutton-color: #fff;
-$closebutton-color-hover: $black;
+$closebutton-color: #8c8c8c;
+$closebutton-color-hover: #fff;
 
 // 16. Drilldown
 // -------------
@@ -744,14 +744,14 @@ $responsive-embed-ratios: (
 // 47. Reveal
 // ----------
 
-$reveal-background: $white;
-$reveal-width: 600px;
+$reveal-background: transparent;
+$reveal-width: 920px;
 $reveal-max-width: $global-width;
 $reveal-padding: 0;
-$reveal-border: 1px solid $medium-gray;
+$reveal-border: false;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;
-$reveal-overlay-background: rgba($black, 0.45);
+$reveal-overlay-background: rgba(0, 0, 0, 0.9);
 
 // 48. Slider
 // ----------

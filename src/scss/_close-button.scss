@@ -2,3 +2,7 @@
     background: #e91b27;
     padding: rem-calc(2 12);
 }
+
+.close-button:focus {
+    outline: none;
+}

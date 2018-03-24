@@ -105,6 +105,7 @@
           asNavFor: '.slider-nav',
           prevArrow: '<i class="slick-prev slick-prev_for fa fa-angle-left fa-3x"> </i>',
           nextArrow: '<i class="slick-next slick-next_for fa fa-angle-right fa-3x"> </i>',
+          dots: false
         });
         
         $('.slider-nav').slick({
@@ -119,6 +120,35 @@
           nextArrow: '<i class="slick-next slick-next_nav fa fa-angle-right fa-3x"> </i>',
           infinite: true,
           autoplay: true,
+          dots: false
+        });
+
+
+        $('.slider-for-modal').slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: '.slider-nav-modal',
+          prevArrow: '<i class="slick-prev slick-prev_for-modal fa fa-angle-left fa-5x"> </i>',
+          nextArrow: '<i class="slick-next slick-next_for-modal fa fa-angle-right fa-5x"> </i>',
+          dots: false,
+          autoplay: false
+        });
+        
+        $('.slider-nav-modal').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: '.slider-for-modal',
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true,
+          arrows: true,
+          prevArrow: '<i class="slick-prev slick-prev_nav-modal fa fa-angle-left fa-3x"> </i>',
+          nextArrow: '<i class="slick-next slick-next_nav-modal fa fa-angle-right fa-3x"> </i>',
+          infinite: true,
+          autoplay: false,
+          dots: false
         });
 
        
