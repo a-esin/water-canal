@@ -151,6 +151,11 @@
           dots: false
         });
 
+
+        $('.js-gallery').click(function() {
+          $('.slider-for-modal').slick('slickNext');
+        });
+
        
 
         /**
