@@ -1,0 +1,17 @@
+.slider-nav-modal {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    height: rem-calc(88);
+}
+
+.slider-nav-modal__item {
+    margin: rem-calc(0 5);
+}
+
+@include breakpoint(small only) {
+    .slider-nav-modal {
+        display: none;
+    }
+}

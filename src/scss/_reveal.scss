@@ -5,3 +5,20 @@
 .reveal_slider {
     overflow-y: visible;
 }
+
+.reveal_slider {
+    width: auto;
+    max-width: none;
+}
+
+.reveal__block {
+    width: 920px;
+    max-width: 85.71429rem;
+    margin: 0 auto;
+}
+
+.reveal__title {
+    color: #fff;
+    border-bottom: 1px solid #5e5e5e;
+    padding-bottom: rem-calc(5);
+}
