@@ -48,3 +48,31 @@
 .news-band__region {
     margin-left: 10.6rem;
 }
+
+@include breakpoint(medium) {
+    .news-band__span-2 {
+        margin-left: 1.25rem;
+    }
+}
+
+@include breakpoint(small only) {
+    .news-band__span-1 {
+        display: block;
+        padding-top: rem-calc(10);
+        margin-bottom: rem-calc(8);
+    }
+    .news-band__span-2 {
+        display: block;
+        margin-bottom: rem-calc(6);
+    }
+    .news-band__input#datepicker {
+        margin-bottom: rem-calc(8);
+    }
+    .news-band__input#datepicker-2 {
+        margin-bottom: rem-calc(6);
+    }
+    .news-band {
+        padding: 0;
+        text-align: center;
+    }
+}
