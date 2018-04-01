@@ -21,3 +21,11 @@
     line-height: rem-calc(20);
     margin-top: rem-calc(22);
 }
+
+.gallery__play {
+    color: white;
+    font-size: 7px;
+    position: relative;
+    bottom: rem-calc(2);
+    margin-right: .75rem;
+}

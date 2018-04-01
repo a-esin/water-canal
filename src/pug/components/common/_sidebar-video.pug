@@ -1,0 +1,32 @@
+.margin-bottom-6.show-for-small-only(data-responsive-toggle='menu-left', data-hide-for='medium')
+    span.button.light-gray.expanded(data-toggle)
+        i.fa.fa-lg.fa-bars
+        | &nbsp;Навигация
+.background-white#menu-left
+    ul.left-menu
+        li: a(href='#' title='').left-menu__link Новости компании
+        li: a(href='#' title='').left-menu__link Новости отрасли
+        li: a(href='#' title='').left-menu__link Мероприятия
+        li: a(href='#' title='').left-menu__link Газета «Росводоканал»
+        li: a(href='#' title='').left-menu__link СМИ о нас
+        li: a(href='#' title='').left-menu__link Фотогалерея
+        li: a(href='#' title='').left-menu__link.left-menu__link_selected Видео
+        li: a(href='#' title='').left-menu__link «Доступная вода»
+        li: a(href='#' title='').left-menu__link Контакты для СМИ
+
+.subscribe
+    h3.subscribe__title Подписка
+    p.subscribe__subtitle на рассылку новостей компании
+    form(action="")
+        input(type="email" placeholder="Ваш email").subscribe__input
+        label.subscribe__label Получать новости региона:
+            select.subscribe__select 
+                option(value="" selected) Всех регионов
+                option(value="") Регион 1
+                option(value="") Регион 2
+                option(value="") Регион 3
+        button(type="submit").button.subscribe__button.expanded Подписаться
+        label.subscribe__label-2
+            input(type="checkbox").subscribe__checkbox
+            | Я ознакомлен и соглашаюсь с условиями использования 
+            a(href="#" title="") персональных данных
