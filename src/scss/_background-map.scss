@@ -1,0 +1,17 @@
+.background-map {
+    background: url(../i/map-3.png) no-repeat;
+    height: rem-calc(498);
+    position: relative;
+}
+
+.background-map__city {
+    background: url(../images/city-sprite.png) no-repeat;
+    height: rem-calc(51);
+    position: absolute;
+    width: rem-calc(43);
+}
+
+.background-map__city_1 {
+    left: 38.4rem;
+    top: 7rem;
+}
