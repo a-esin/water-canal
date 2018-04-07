@@ -1,0 +1,78 @@
+.content ul.accordion-map {
+    margin-top: 5.5rem;
+}
+
+.accordion-map__h2 {
+    font-size: rem-calc(36);
+    margin-top: rem-calc(17);
+    margin-left: rem-calc(16);
+    margin-bottom: rem-calc(35);
+}
+
+.accordion-map__h2:before {
+    content: url(../images/city.png);
+    position: relative;
+    right: rem-calc(15);
+    top: rem-calc(8);
+}
+
+.accordion-map__date {
+    font-weight: bold;
+    color: #077cce;
+}
+
+.accordion-map__content {
+    padding: rem-calc(21 0);
+}
+
+.accordion-map__content p {
+    margin-bottom: rem-calc(12);
+}
+
+.content p.accordion-map__text {
+    line-height: rem-calc(20);
+}
+
+.accordion-map__h4 {
+    font-size: rem-calc(14);
+    color: #7a7f88;
+}
+
+.accordion-map__rates {
+    font-size: rem-calc(14);
+    color: #535863;
+    text-transform: uppercase;
+    margin-bottom: rem-calc(9);
+}
+
+.content p.accordion-map__statistics {
+    color: #077cce;
+    font-size: rem-calc(52);
+    font-weight: 300;
+    margin-bottom: rem-calc(9);
+}
+
+.content p.accordion-map__statistics.text-black {
+    color: #444;
+}
+
+.content p.accordion-map__span {
+    font-size: rem-calc(13);
+    font-weight: 400;
+    color: #077cce;
+}
+
+.accordion-map__background-gray {
+    background: #eff4f8;
+    padding: rem-calc(28 20 9);
+    margin-top: rem-calc(10);
+}
+
+.accordion-map__border {
+    border-right: 1px solid #e1e9ee;
+}
+
+.accordion-map__border-2 {
+    border: 1px solid #e1e9ee;
+    padding: rem-calc(26 27 5);
+}
