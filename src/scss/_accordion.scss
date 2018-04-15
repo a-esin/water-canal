@@ -32,3 +32,7 @@
 .accordion-content p {
     margin-bottom: 0;
 }
+
+:last-child:not(.is-active)>.accordion-title {
+    border: 1px solid #bccfda;
+}

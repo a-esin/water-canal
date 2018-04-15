@@ -11,3 +11,11 @@
 .background-breadcrumbs {
     background: #eff4f8;
 }
+
+@include breakpoint(small only) { 
+
+    .breadcrumbs {
+        margin: 1.42857rem 0;
+    }
+
+}

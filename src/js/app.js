@@ -235,5 +235,78 @@
         $("#phone").mask("+7 (999) 999-99-99");
 
 
+        // Карта
+
+        $('.background-map__city_1').click(function() {
+          $('.background-map__city_1').toggleClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_2').click(function() {
+          $('.background-map__city_2').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_3').click(function() {
+          $('.background-map__city_3').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_4').click(function() {
+          $('.background-map__city_4').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_5').click(function() {
+          $('.background-map__city_5').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_6').click(function() {
+          $('.background-map__city_6').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_7').removeClass('background-map__city_active');
+        });
+
+        $('.background-map__city_7').click(function() {
+          $('.background-map__city_7').toggleClass('background-map__city_active');
+          $('.background-map__city_1').removeClass('background-map__city_active');
+          $('.background-map__city_2').removeClass('background-map__city_active');
+          $('.background-map__city_3').removeClass('background-map__city_active');
+          $('.background-map__city_4').removeClass('background-map__city_active');
+          $('.background-map__city_5').removeClass('background-map__city_active');
+          $('.background-map__city_6').removeClass('background-map__city_active');
+        });
+
+
     });
 })(jQuery);

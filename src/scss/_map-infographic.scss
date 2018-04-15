@@ -1,0 +1,75 @@
+.map-infographic {
+    background: url(../images/waves.png) no-repeat 50% 23%;
+    text-align: center;
+    margin-top: rem-calc(20);
+    background-color: #fff;
+    width: rem-calc(200);
+    height: rem-calc(200);
+    position: absolute;
+    padding-top: rem-calc(40);
+}
+
+.map-infographic_1 {
+    left: 75.6rem;
+    top: 2.3rem;
+}
+
+.map-infographic_2 {
+    left: 90.6rem;
+    top: 2.3rem;
+}
+
+.map-infographic_3 {
+    left: 75.6rem;
+    top: 17.3rem;
+}
+
+.map-infographic_4 {
+    left: 90.6rem;
+    top: 17.3rem;
+}
+
+.map-infographic__number {
+    font-size: rem-calc(56);
+    font-weight: 300;
+    color: #077cce;
+}
+
+.map-infographic__paragraph {
+    font-size: rem-calc(14);
+    line-height: rem-calc(18);
+    margin-top: rem-calc(-9);
+}
+
+.map-infographic__text {
+    color: #077cce;
+    font-size: rem-calc(20);
+    margin-top: rem-calc(-18);
+    margin-bottom: rem-calc(13);
+}
+
+@media screen and (max-width: 1439px) {
+    .map-infographic {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .map-infographic_1 {
+        left: 72.6rem;
+    }
+
+    .map-infographic_2 {
+        left: 87.6rem;
+    }
+
+    .map-infographic_3 {
+        left: 72.6rem;
+    }
+
+    .map-infographic_4 {
+        left: 87.6rem;
+    }
+
+}

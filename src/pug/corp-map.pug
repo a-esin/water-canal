@@ -4,8 +4,68 @@ block page
     include components/common/_breadcrumbs
     block content
         .background-map
-            a.background-map__city.background-map__city_1
-            span Росводоканал Тверь
+
+            a.background-map__city.background-map__city_1.background-map__city_active
+            span.background-map__span.background-map__span_1 Росводоканал 
+                br
+                | Тверь
+
+            a.background-map__city.background-map__city_2
+            span.background-map__span.background-map__span_2 Росводоканал 
+                br
+                | Воронеж
+
+            a.background-map__city.background-map__city_3
+            span.background-map__span.background-map__span_3 Росводоканал 
+                br
+                | Краснодар
+
+            a.background-map__city.background-map__city_4
+            span.background-map__span.background-map__span_4 Росводоканал 
+                br
+                | Оренбург
+
+            a.background-map__city.background-map__city_5
+            span.background-map__span.background-map__span_5 Росводоканал 
+                br
+                | Тюмень
+
+            a.background-map__city.background-map__city_6
+            span.background-map__span.background-map__span_6 Росводоканал 
+                br
+                | Омск
+
+            a.background-map__city.background-map__city_7
+            span.background-map__span.background-map__span_7 Росводоканал 
+                br
+                | Барнаул
+
+            .map-infographic.map-infographic_1
+                .map-infographic__number 7
+                p.map-infographic__paragraph регионов
+
+            .map-infographic.map-infographic_2
+                .map-infographic__number 23%
+                p.map-infographic__paragraph доля рынка среди 
+                    br
+                    | частных водоканалов
+
+            .map-infographic.map-infographic_3
+                .map-infographic__number 13,8
+                .map-infographic__text тыс. км
+                p.map-infographic__paragraph протяженность 
+                    br
+                    | труб
+
+            .map-infographic.map-infographic_4
+                .map-infographic__number 98%
+                p.map-infographic__paragraph уровень 
+                    br
+                    | собираемости 
+                    br
+                    | платежей 
+
+
 
         .grid-container.content: .grid-x.grid-padding-x.align-center
             .medium-21.cell
@@ -26,7 +86,7 @@ block page
                             .grid-x.grid-padding-x
 
                                 .medium-12.cell
-                                    h3 История
+                                    h3.text-center.medium-text-left История
                                     p 
                                         span.accordion-map__date 1865 
                                         | — первый тверской водопровод;
@@ -38,7 +98,7 @@ block page
                                         | — начало работы под управлением ГК «Росводоканал»
 
                                 .medium-12.cell
-                                    h3 Успехи компании
+                                    h3.text-center.medium-text-left Успехи компании
                                     p.accordion-map__text
                                         span.accordion-map__date 2013 
                                         | — Призер (2 место) регионального этапа Всероссийского конкурса «Российская организация высокой социальной эффективности в 2013» в номинации «За развитие кадрового потенциала в организациях производственной сферы».
@@ -69,7 +129,7 @@ block page
 
                             hr.margin-top-12
 
-                            h2.margin-top-8 Тарифы
+                            h2.margin-top-8.text-center.medium-text-left Тарифы
 
                             .filters
                                 a(href="" title="").filters__link.filters__link_active Правобережная часть
@@ -78,7 +138,7 @@ block page
 
                             .grid-x.grid-padding-x
                                 .cell.medium-12
-                                    h4.accordion-map__rates Для населения
+                                    h4.accordion-map__rates.text-center.medium-text-left Для населения
                                     .accordion-map__border-2
                                         .grid-x.grid-padding-x
                                             .cell.small-12
@@ -89,7 +149,7 @@ block page
                                                 p.accordion-map__statistics.text-black 14,10 ₽                                  
                                                 p.accordion-map__span водоотведение (м3)
                                 .cell.medium-12
-                                    h4.accordion-map__rates Для юридических лиц (без НДС)
+                                    h4.accordion-map__rates.accordion-map__rates_margin.text-center.medium-text-left Для юридических лиц (без НДС)
                                     .accordion-map__border-2
                                         .grid-x.grid-padding-x
                                             .cell.small-12
@@ -101,9 +161,9 @@ block page
                                                 p.accordion-map__span водоотведение (м3)
 
                             hr.margin-top-12
-                            h2.margin-top-8 Контакты
+                            h2.margin-top-8.text-center.medium-text-left Контакты
                             .grid-x.grid-padding-x.contacts
-                                .cell.medium-6
+                                .cell.medium-12.large-6
                                     p
                                         a(href="" title="Капустин Дмитрий Петрович")
                                             img(src="./i/name-2.png", alt="Капустин Дмитрий Петрович")
@@ -112,21 +172,21 @@ block page
                                             br
                                             | Петрович
                                     p.content__position-2 Генеральный директор ООО «Тверь Водоканал»
-                                .cell.medium-6
+                                .cell.medium-12.large-6
                                     p.contacts__title Адрес
                                     p.contacts__text-bold 170008, г.Тверь, 
                                         br
                                         | ул. 15 лет Октября, д.7
                                     p: a(href="https://tvervodokanal.ru/" title="" target="_blank").contacts__link tvervodokanal.ru
-                                .cell.medium-6
-                                    p.contacts__title Колл-центр
+                                .cell.medium-12.large-6
+                                    p.contacts__title.contacts__title_margin Колл-центр
                                     p.contacts__phone (4822) 62-01-02
                                     p.contacts__phone.margin-bottom-3 (4822) 48-11-00
                                     p.contacts__work-schedule 8:00 - 20:00 ежедневно, 
                                         br
                                         | без выходных
-                                .cell.medium-6
-                                    p.contacts__title Приемная
+                                .cell.medium-12.large-6
+                                    p.contacts__title.contacts__title_margin Приемная
                                     p.contacts__phone (4822) 58-83-16
                                     p.contacts__work-schedule 8:00 - 17:00 в рабочие дни
 

@@ -38,3 +38,19 @@
     font-size: rem-calc(13);
     line-height: rem-calc(18);
 }
+
+@include breakpoint(small only) {
+
+    .contacts {
+        text-align: center;
+    }
+    
+}
+
+@include breakpoint(medium only) { 
+
+    .content p.contacts__title_margin {
+        margin-top: rem-calc(25);
+    }
+
+}

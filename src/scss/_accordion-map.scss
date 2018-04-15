@@ -76,3 +76,35 @@
     border: 1px solid #e1e9ee;
     padding: rem-calc(26 27 5);
 }
+
+@include breakpoint(small only) {
+
+    .content p.accordion-map__statistics {
+        font-size: rem-calc(30);
+    }
+
+    .accordion-map__rates_margin {
+        margin-top: rem-calc(25);
+    }
+
+    .accordion-map__h2 {
+        font-size: rem-calc(24);
+    }
+
+    .accordion-map__border {
+        border: none;
+    }
+
+    .accordion-map__background-gray {
+        text-align: center;
+    }
+
+}
+
+@include breakpoint(medium only) {
+
+    .content p.accordion-map__statistics {
+        font-size: rem-calc(32);
+    }
+
+}

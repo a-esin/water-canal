@@ -11,7 +11,104 @@
     width: rem-calc(43);
 }
 
+.background-map__city_active {
+    background-position: -43px 0px;
+}
+
 .background-map__city_1 {
     left: 38.4rem;
     top: 7rem;
+}
+
+.background-map__city_2 {
+    top: 12rem;
+    left: 36rem;
+}
+
+.background-map__city_3 {
+    top: 17.6rem;
+    left: 29.5rem;
+}
+
+.background-map__city_4 {
+    top: 17.8rem;
+    left: 42rem;
+}
+
+.background-map__city_5 {
+    top: 19.4rem;
+    left: 54.3rem;
+}
+
+.background-map__city_6 {
+    top: 23rem;
+    left: 57.3rem;
+}
+
+.background-map__city_7 {
+    top: 27rem;
+    left: 61.3rem;
+}
+
+.background-map__span {
+    position: absolute;
+    color: #fff;
+    line-height: rem-calc(14);   
+}
+
+.background-map__span_1 {
+    left: 42rem;
+    top: 7.8rem;
+}
+
+.background-map__span_2 {
+    top: 12.7rem;
+    left: 39.5rem;
+}
+
+.background-map__span_3 {
+    top: 18.4rem;
+    left: 33rem;
+}
+
+.background-map__span_4 {
+    top: 18.5rem;
+    left: 45.5rem;
+}
+
+.background-map__span_5 {
+    top: 20rem;
+    left: 57.8rem;
+}
+
+.background-map__span_6 {
+    top: 23.6rem;
+    left: 60.8rem;
+}
+
+.background-map__span_7 {
+    top: 27.6rem;
+    left: 64.8rem;
+}
+
+@include breakpoint(medium down) {
+    
+    .background-map__city, .background-map__span {
+        display: none;
+    }
+
+    .background-map {
+        background: url(../i/map-4.png) no-repeat;
+    }
+
+}
+
+@include breakpoint(small only) {
+
+    .background-map {
+        background: url(../i/map-5.png) no-repeat;
+        background-size: 100%;
+        height: rem-calc(136);
+    }
+
 }

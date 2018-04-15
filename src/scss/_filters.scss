@@ -17,3 +17,12 @@
     color: #fff;
     background: #1074b9;
 }
+
+@include breakpoint(small only) {
+    
+    .filters__link {
+        display: block;
+        margin-bottom: rem-calc(10);
+    }
+
+}
