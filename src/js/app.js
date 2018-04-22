@@ -198,11 +198,24 @@
         $(".region-news").find(".slick-dots")
             .addClass("slick-dots_events_margin");
 
+        // Кнопка "наверх"
+
+        
+
         $('.button-up').click(function () {
             $('body, html').animate({
                 scrollTop: 0
             }, 1200);
             return false;
+        });
+
+        $(window).scroll(function () {
+        // Если отступ сверху больше 800px то показываем кнопку "Наверх"
+          if ($(this).scrollTop() > 500) {
+              $('.button-up').css('display', 'block');
+          } else {
+              $('.button-up').css('display', 'none');
+          }
         });
 
         $('.left-menu__link_selected').click(function() {

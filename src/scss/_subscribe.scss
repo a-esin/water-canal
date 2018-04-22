@@ -74,6 +74,25 @@
 
 .subscribe__checkbox {
     margin-bottom: 0;
+    display: none;
+}
+
+.subscribe__checkbox-custom {
+    background: url(../images/checkbox.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    float: left;
+}
+
+.subscribe__checkbox:checked + .subscribe__checkbox-custom {
+    background: url(../images/checkbox-active.png) no-repeat;
+}
+
+.subscribe__text {
+    float: right;
+    width: rem-calc(215);
+    margin-top: rem-calc(3);
 }
 
 .subscribe__link, .content a.subscribe__link {
