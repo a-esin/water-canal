@@ -209,6 +209,11 @@
             return false;
         });
 
+        // Выпадающее меню
+        $('.menu-mobile__close').click(function () {
+            $('.menu-mobile').addClass('hide');
+        });
+
         $(window).scroll(function () {
         // Если отступ сверху больше 800px то показываем кнопку "Наверх"
           if ($(this).scrollTop() > 500) {

@@ -32,14 +32,16 @@
         .small-5.cell.text-center.show-for-large.medium-text-right
             a(href="tel:+74955140211").header-phone +7 (495) 514-02-11 
         .small-12.cell.text-right.hide-for-large
-            a(href="#", title="Меню", data-open="modal")
+            a(href="#", title="Меню", data-toggle="menu")
                 img(src="./images/menu.png", alt="Меню")
 
-.reveal.reveal_mobile(data-reveal id="modal")
+.menu-mobile#menu(data-toggler=".hide").hide
+    a.menu-mobile__close
+        img(src="./images/close-menu.png", alt="")
     form.search-top.input-group                
-        .input-group-button.input-group-button_background
+        .input-group-button.input-group-button_background.menu-mobile__input-icon
             button.search-top__button.fa.fa-search(type="submit")
-        input.search-top__input.input-group-field(placeholder="Поиск", type="text")
+        input.search-top__input.input-group-field(placeholder="Поиск", type="text").menu-mobile__search
     button.close-button(data-close aria-label="Close modal" type="button").hide
         span(aria-hidden="true").close-button__span &times;
     

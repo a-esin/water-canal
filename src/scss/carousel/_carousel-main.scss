@@ -43,3 +43,11 @@
   }
 
 }
+
+@include breakpoint(medium only) {
+
+  .carousel-main__title {
+    font-size: rem-calc(30);
+  }
+
+}

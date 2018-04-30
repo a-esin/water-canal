@@ -1,0 +1,18 @@
+.menu-mobile {
+    padding-right: rem-calc(51);
+    margin-top: rem-calc(-57);
+}
+
+.menu-mobile__close {
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+}
+
+.menu-mobile__input-icon {
+    padding-top: rem-calc(10);
+}
+
+.menu-mobile__search {
+    padding: rem-calc(25 0);
+}
