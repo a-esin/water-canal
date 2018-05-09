@@ -23,13 +23,14 @@
     position: absolute;
     padding: 1rem 0 1.5rem;
     top: 100%;
-    right: 1rem;
+    left: 0;
     width: 18rem;
     background: #fff;
   }
 
-  &:first-child .menu-base {
-    left: 0;
+  &:last-child .menu-base {
+    left: auto;
+    right: 1rem;
   }
 
   & .menu-base__item {
