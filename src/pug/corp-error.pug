@@ -6,14 +6,15 @@ block page
             p: img(src="./i/404.png", alt="Страница не найдена", width="")
             p.page-error__text-1 К сожалению, запрашиваемая страница не найдена
             p.page-error__text-2 Попробуйте найти интересующий Вас материал через поиск, или свяжитесь с нами.
-            form
+            form(action="#")
                 .grid-x.grid-padding-x.align-center
                     .small-24.medium-9.cell
                         input(type="text", placeholder="Поиск").page-error__input
-                    .small-24.medium-2.cell.text-left
-                        input(type="submit", value="").button.page-error__button
+                    .small-24.medium-2.cell.medium-text-left.text-center
+                        input(type="submit", value="").button.page-error__button.show-for-medium
+                        input(type="submit", value="Искать").show-for-small-only.page-error__button-mobile
             .grid-x.grid-padding-x.page-error__links
                 .small-24.medium-12.cell.text-right
-                    a.news-title.text-primary.page-error__main На главную
+                    a.news-title.text-primary.page-error__main(href="#") На главную
                 .small-24.medium-12.cell.text-left
-                    a.news-title.text-primary.page-error__contacts Контакты
+                    a.news-title.text-primary.page-error__contacts(href="#") Контакты

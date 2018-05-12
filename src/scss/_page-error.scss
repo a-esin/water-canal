@@ -63,3 +63,12 @@
     position: relative;
     right: rem-calc(8);
 }
+
+.page-error__button-mobile {
+    border: none;
+    background: transparent;
+    color: #077cce;
+    font-size: rem-calc(18);
+    margin-top: rem-calc(12);
+    cursor: pointer;
+}
