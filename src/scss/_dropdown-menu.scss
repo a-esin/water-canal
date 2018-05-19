@@ -1,0 +1,27 @@
+.dropdown-menu__link {
+    background: #1074b9;
+    color: #fff;
+    font-size: rem-calc(15);
+    text-transform: uppercase;
+}
+
+.dropdown-menu__link:hover, .dropdown-menu__link:focus {
+    color: #fff;
+    background: #0e66a1;
+}
+
+.dropdown-menu__link-nested {
+    color: #000;
+    border-bottom: 1px solid #e1e9ee;
+    padding: rem-calc(11 19);
+    display: block;
+}
+
+.dropdown-menu__link-nested:hover {
+    background: #d0ecff;
+}
+
+.dropdown-menu__nested {
+    background: #eff4f8;
+    padding-left: rem-calc(20);
+}
