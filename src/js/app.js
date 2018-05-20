@@ -326,5 +326,18 @@
         });
 
 
+        // Чекбокс согласия на обработку персональных данных
+
+        $('#subscribe').prop('disabled', true);
+
+        $('#agree').change(function() {
+
+            $('#subscribe').prop('disabled', function(i, val) {
+              return !val;
+            })
+        });
+
+
+
     });
 })(jQuery);
