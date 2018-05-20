@@ -11,10 +11,21 @@
 .event__title {
     font-weight: bold;
     font-size: rem-calc(20);
-    color: #333;
     line-height: 1.3;
 }
 
 .event__text {
     font-size: rem-calc(13);
+}
+
+.event__link {
+    color: #444;
+}
+
+.event__link:hover {
+    color: #433561;
+
+    .news-date {
+        color: #433561;
+    }
 }
