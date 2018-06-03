@@ -61,7 +61,13 @@
         display: block;
         margin-top: rem-calc(14);
     }
+    
+}
+
+@include breakpoint(medium down) { 
+
     .news-detail__border {
         margin-bottom: rem-calc(20);
-    } 
+    }
+
 }

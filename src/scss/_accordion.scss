@@ -36,3 +36,15 @@
 :last-child:not(.is-active)>.accordion-title {
     border: 1px solid #bccfda;
 }
+
+.content .accordion-item {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 319px) { 
+
+    .accordion-title::before {
+        right: rem-calc(5);
+    }
+
+}
