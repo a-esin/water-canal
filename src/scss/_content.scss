@@ -136,3 +136,44 @@
 .content .button.disabled {
     background: #bfd0e2;
 }
+
+@include breakpoint(small only) {
+
+    .content__right-block {
+        border: 3px solid #d0ecff;
+        padding: rem-calc(13);
+        float: none;
+        width: 100%;
+        margin: rem-calc(0 0 15 0);
+    }
+
+    .content .background-form {
+        padding: rem-calc(46 8);
+    }
+
+    .content a.button {
+        padding: rem-calc(16 98);
+    }
+
+    .content__image-right {
+        margin-left: 0;
+        float: none;
+    }
+
+    .content__left-block {
+        float: none;
+        margin-right: 0;
+        margin-bottom: rem-calc(20);
+        text-align: center;
+    }
+
+}
+
+@include breakpoint(medium only) {
+
+    .content a.filters__link {
+        display: inline-block;
+        margin-bottom: rem-calc(10);
+    }
+
+}
