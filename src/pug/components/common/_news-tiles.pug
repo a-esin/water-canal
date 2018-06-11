@@ -3,12 +3,14 @@
 
         h1 Новости компании
 
-.news-band
+a(data-toggle="news-band" title="").filter-date-link Искать за период
+
+.news-band#news-band(data-toggler=".show-for-medium").show-for-medium
       
-    span Период с
+    span.news-band__span-1 Период с
     input(type="text", placeholder="__.__.__").news-band__input#datepicker
 
-    span.margin-left-5 по
+    span.news-band__span-2 по
     input(type="text", placeholder="__.__.__").news-band__input#datepicker-2
 
     span.news-band__region(data-toggle="js-city") Регион:

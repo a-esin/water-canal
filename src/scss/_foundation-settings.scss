@@ -155,7 +155,7 @@ $header-lineheight: 1.1;
 $header-margin-bottom: rem-calc(20);
 $header-styles: (
   small: (
-    'h1': ('font-size': 28, 'line-height': 1),
+    'h1': ('font-size': 26, 'line-height': 1, 'text-align': 'center'),
     'h2': ('font-size': 26, 'line-height': 1.1),
     'h3': ('font-size': 23, 'line-height': 1.2),
     'h4': ('font-size': 19, 'line-height': 1.3),

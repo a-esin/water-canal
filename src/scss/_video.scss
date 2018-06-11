@@ -9,3 +9,11 @@
     position: relative;
     top: 40%;
 }
+
+@include breakpoint(small only) {
+
+    .video__item {
+        width: rem-calc(300);
+    }
+
+}

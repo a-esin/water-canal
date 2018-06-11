@@ -1,0 +1,11 @@
+.filter-date-link {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+
+@include breakpoint(medium) {
+    .filter-date-link {
+        display: none;
+    }
+}

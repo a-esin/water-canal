@@ -104,3 +104,11 @@
     text-decoration: none;
     color: #077cce;
 }
+
+@media screen and (max-width: 319px) {
+
+  .subscribe__text {
+    width: rem-calc(190);
+  }  
+
+}
