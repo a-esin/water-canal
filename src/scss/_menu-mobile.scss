@@ -1,6 +1,10 @@
 .menu-mobile {
     padding-right: rem-calc(51);
-    margin-top: rem-calc(-57);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
 }
 
 .menu-mobile__close {
@@ -16,3 +20,9 @@
 .menu-mobile__search {
     padding: rem-calc(25 0);
 }
+
+.menu-mobile__white {
+    background: #fff;
+    padding-bottom: rem-calc(45);
+}
+

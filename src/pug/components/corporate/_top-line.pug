@@ -1,6 +1,6 @@
 .padding-top-4.padding-bottom-3.background-white
     .grid-container: .grid-x.grid-padding-x.align-middle
-        .small-12.large-7.cell
+        .small-12.large-6.xlarge-7.cell
             a(href="/" title="Перейти на главную страницу")
                 img(src="./images/logo.png", alt="Лого")
         .small-7.cell.show-for-large
@@ -8,7 +8,7 @@
                 .input-group-button.input-group-button_background
                     button.search-top__button.fa.fa-search(type="submit")
                 input.search-top__input.input-group-field(placeholder="Поиск", type="text")
-        .small-5.cell.text-right.show-for-large
+        .large-6.xlarge-5.cell.text-right.show-for-large
             a.text-medium-gray.social-network(href="#")
                 i.fa-stack.fa-lg
                     i.fa.fa-circle.fa-stack-2x
@@ -35,98 +35,4 @@
             a(href="#", title="Меню", data-toggle="menu")
                 img(src="./images/menu.png", alt="Меню")
 
-.menu-mobile#menu(data-toggler=".hide").hide
-    a.menu-mobile__close
-        img(src="./images/close-menu.png", alt="")
-    form.search-top.input-group                
-        .input-group-button.input-group-button_background.menu-mobile__input-icon
-            button.search-top__button.fa.fa-search(type="submit")
-        input.search-top__input.input-group-field(placeholder="Поиск", type="text").menu-mobile__search
-    button.close-button(data-close aria-label="Close modal" type="button").hide
-        span(aria-hidden="true").close-button__span &times;
-    
-    
-    ul.vertical.menu.accordion-menu(data-accordion-menu).dropdown-menu
-        li 
-            a(href="#").dropdown-menu__link О компании
-            ul.menu.vertical.nested
-                li 
-                    a(href="#").dropdown-menu__link-nested История компании
-                    
-                li
-                    a(href="#").dropdown-menu__link-nested Структура компании
-                li
-                    a(href="#").dropdown-menu__link-nested Руководство
-                    ul.menu.vertical.nested.dropdown-menu__nested
-                        li 
-                            a(href="#").text-black Правление
-                        li 
-                            a(href="#").text-primary Менеджмент
-                        li 
-                            a(href="#").text-black Управляющий комитет
-                li
-                    a(href="#").dropdown-menu__link-nested Ключевые показатели
-                li
-                    a(href="#").dropdown-menu__link-nested Нормативно-правовая база
-                li
-                    a(href="#").dropdown-menu__link-nested Приоритетные направления деятельности
-                    ul.menu.vertical.nested
-                        li 
-                            a(href="#") Пункт 1
-                        li 
-                            a(href="#") Пункт 2
-                        li 
-                            a(href="#") Пункт 3
-                li
-                    a(href="#").dropdown-menu__link-nested Кадровая политика
-                    ul.menu.vertical.nested
-                        li 
-                            a(href="#") Пункт 1
-                        li 
-                            a(href="#") Пункт 2
-                        li 
-                            a(href="#") Пункт 3
-                li
-                    a(href="#").dropdown-menu__link-nested Социальное развитие
-                li
-                    a(href="#").dropdown-menu__link-nested Противодействие коррупции
-                li
-                    a(href="#").dropdown-menu__link-nested Раскрытие информации
-                    
-        li 
-            a(href="#").dropdown-menu__link Потребителям
-        li 
-            a(href="#").dropdown-menu__link Регионы присутствия
-        li
-            a(href="#").dropdown-menu__link Пресс-центр
-        li
-            a(href="#").dropdown-menu__link Закупки
-        li
-            a(href="#").dropdown-menu__link Инвестиции
-        li
-            a(href="#").dropdown-menu__link Контакты
-
-
-    div
-        a(href="tel:+74955140211").header-phone +7 (495) 514-02-11
-    div
-        a.text-medium-gray.social-network(href="#")
-            i.fa-stack.fa-lg
-                i.fa.fa-circle.fa-stack-2x
-                i.fa.fa-youtube-play.fa-stack-1x.fa-inverse
-        a.text-medium-gray.social-network(href="#")
-            i.fa-stack.fa-lg
-                i.fa.fa-circle.fa-stack-2x
-                i.fa.fa-facebook.fa-stack-1x.fa-inverse
-        a.text-medium-gray.social-network(href="#")
-            i.fa-stack.fa-lg
-                i.fa.fa-circle.fa-stack-2x
-                i.fa.fa-instagram.fa-stack-1x.fa-inverse
-        a.text-medium-gray.social-network(href="#")
-            i.fa-stack.fa-lg
-                i.fa.fa-circle.fa-stack-2x
-                i.fa.fa-vk.fa-stack-1x.fa-inverse
-        a.text-medium-gray.social-network(href="#")
-            i.fa-stack.fa-lg
-                i.fa.fa-circle.fa-stack-2x
-                i.fa.fa-twitter.fa-stack-1x.fa-inverse
+include _menu-mobile
