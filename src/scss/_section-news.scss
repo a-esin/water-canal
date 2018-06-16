@@ -49,3 +49,9 @@
     margin-bottom: rem-calc(16);
     line-height: 1.2;
 }
+
+@include breakpoint(small only) {
+    .section-news__city {
+        margin-right: 0;
+    }
+} 

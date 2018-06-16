@@ -13,7 +13,7 @@
     background: url(../images/arrow-up-hover.png) no-repeat right;
 }
 
-@include breakpoint(medium down) {
+@media screen and (max-width: 1439px) {
     .button-up {
         top: 2rem;
         left: 0;

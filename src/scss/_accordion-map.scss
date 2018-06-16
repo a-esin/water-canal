@@ -9,12 +9,7 @@
     margin-bottom: rem-calc(35);
 }
 
-.accordion-map__h2:before {
-    content: url(../images/city.png);
-    position: relative;
-    right: rem-calc(15);
-    top: rem-calc(8);
-}
+
 
 .accordion-map__date {
     font-weight: bold;
@@ -89,6 +84,8 @@
 
     .accordion-map__h2 {
         font-size: rem-calc(24);
+        margin-left: 0;
+        text-align: center;
     }
 
     .accordion-map__border {
@@ -105,6 +102,17 @@
 
     .content p.accordion-map__statistics {
         font-size: rem-calc(32);
+    }
+
+}
+
+@include breakpoint(medium) {
+
+    .accordion-map__h2:before {
+        content: url(../images/city.png);
+        position: relative;
+        right: rem-calc(15);
+        top: rem-calc(8);
     }
 
 }

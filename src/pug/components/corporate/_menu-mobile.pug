@@ -2,10 +2,11 @@
     .menu-mobile__white
         a.menu-mobile__close
             img(src="./images/close-menu.png", alt="")
-        form.search-top.input-group                
+        form.search-top.input-group
+            input.search-top__input.input-group-field(placeholder="Поиск", type="text").menu-mobile__search                
             .input-group-button.input-group-button_background.menu-mobile__input-icon
                 button.search-top__button.fa.fa-search(type="submit")
-            input.search-top__input.input-group-field(placeholder="Поиск", type="text").menu-mobile__search
+            
         button.close-button(data-close aria-label="Close modal" type="button").hide
             span(aria-hidden="true").close-button__span &times;
         

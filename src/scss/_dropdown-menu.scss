@@ -17,6 +17,10 @@
     display: block;
 }
 
+.dropdown-menu__link-nested:after {
+    border-color: #000 transparent transparent !important;
+}
+
 .dropdown-menu__link-nested:hover {
     background: #d0ecff;
 }
