@@ -11,8 +11,12 @@
                 option(value="") Регион 3
         button(type="submit").button.subscribe__button.expanded#subscribe Подписаться
         label.subscribe__label-2
-            input(type="checkbox").subscribe__checkbox#agree
-            .subscribe__checkbox-custom
-            .subscribe__text Я ознакомлен и соглашаюсь с условиями использования
-                br
-                a(href="#" title="").subscribe__link персональных данных
+            .grid-x.grid-padding-x
+                .cell.shrink
+                    input(type="checkbox").subscribe__checkbox#agree
+                    .subscribe__checkbox-custom
+                .cell.auto
+                                      
+                    .subscribe__text Я ознакомлен и соглашаюсь с условиями использования
+                        br
+                        a(href="#" title="").subscribe__link персональных данных

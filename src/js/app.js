@@ -348,5 +348,21 @@
           $('.overlay').addClass('hide');
         });
 
+
+
+        var $width = $(window).width();
+
+        if ($width <= 960) {
+
+          $('.subscribe').addClass('hide');
+
+          $('.subscribe-link').click(function() {
+            $('.subscribe').toggleClass('hide');
+          });
+
+        }
+
+       
+
     });
 })(jQuery);

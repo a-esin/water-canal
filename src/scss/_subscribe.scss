@@ -81,8 +81,6 @@
     background: url(../images/checkbox.png) no-repeat;
     width: 18px;
     height: 18px;
-    margin-right: 8px;
-    float: left;
 }
 
 .subscribe__checkbox:checked + .subscribe__checkbox-custom {
@@ -90,8 +88,6 @@
 }
 
 .subscribe__text {
-    float: right;
-    width: rem-calc(215);
     margin-top: rem-calc(3);
 }
 
