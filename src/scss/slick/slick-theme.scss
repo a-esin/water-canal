@@ -163,6 +163,12 @@ $slick-dot-color-active: rgba(0, 0, 0, 0.2) !default;
   }
 }
 
+@include breakpoint(medium) {
+  .slick-dots_events {
+    width: 90%;
+  }
+}
+
 .slick-prev_main-factors {
   left: 0;
 }

@@ -77,9 +77,9 @@
   .menu-base__link {
     display: inline-block;
   }
-}
 
-@include breakpoint(xlarge up) {
+
+
   .menu-base__item {
     &:hover > .menu-base {
       display: block;
@@ -97,4 +97,20 @@
   .menu-base__item {
     padding-right: 0;
   }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1194px) {
+
+  .menu-base__item {
+    padding-right: 0;
+  }
+
+  .menu-base__link {
+    font-size: rem-calc(12);
+  }
+
+  .menu-base__item:last-child .menu-base {
+    right: 0;
+  }
+
 }

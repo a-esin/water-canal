@@ -339,5 +339,14 @@
 
 
 
+
+        $('.menu-burger').click(function() {
+          $('.overlay').removeClass('hide');
+        });
+
+        $('.menu-mobile__close').click(function() {
+          $('.overlay').addClass('hide');
+        });
+
     });
 })(jQuery);
