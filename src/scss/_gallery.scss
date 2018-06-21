@@ -29,3 +29,11 @@
     bottom: rem-calc(2);
     margin-right: .75rem;
 }
+
+@include breakpoint(small only) {
+
+    .content p.gallery__text {
+        margin-bottom: rem-calc(35);
+    }
+
+}

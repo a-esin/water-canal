@@ -1,8 +1,9 @@
 .video__item {
     height: rem-calc(221);
-    width: rem-calc(348);
+    width: 100%;
     display: block;
     text-align: center;
+    background-size: cover !important;
 }
 
 .video__image {
@@ -10,10 +11,3 @@
     top: 40%;
 }
 
-@include breakpoint(small only) {
-
-    .video__item {
-        width: rem-calc(300);
-    }
-
-}

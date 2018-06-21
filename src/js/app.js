@@ -105,7 +105,8 @@
           asNavFor: '.slider-nav',
           prevArrow: '<i class="slick-prev slick-prev_for fa fa-angle-left fa-3x"> </i>',
           nextArrow: '<i class="slick-next slick-next_for fa fa-angle-right fa-3x"> </i>',
-          dots: false
+          dots: false,
+          draggable: false
         });
         
         $('.slider-nav').slick({
