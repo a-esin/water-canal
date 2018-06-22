@@ -1,6 +1,8 @@
 .slider-for-modal__text {
     color: #fff;
     margin-top: rem-calc(-10);
+    user-select: text;
+    -webkit-user-select: text;
 }
 
 .slider-for-modal__count {

@@ -4,8 +4,9 @@
     bottom: 0;
     color: #fff;
     padding: rem-calc(25);
-    background: #000;
-    opacity: 0.6;
+    background: rgba(0,0,0,0.6);
+    user-select: text;
+    -webkit-user-select: text;
 }
 
 @include breakpoint(small only) {
