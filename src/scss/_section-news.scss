@@ -50,6 +50,11 @@
     line-height: 1.2;
 }
 
+.content a.section-news__anons {
+    color: #444;
+    text-decoration: none;
+}
+
 @include breakpoint(small only) {
     .section-news__city {
         margin-right: 0;

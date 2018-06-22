@@ -65,3 +65,15 @@
         margin-top: 2rem;
     }
 }
+
+@include breakpoint(medium only) {
+
+    .about-company__phone {
+        font-size: rem-calc(18);
+    }
+
+    .about-company__email {
+        font-size: rem-calc(12);
+    }
+
+}
