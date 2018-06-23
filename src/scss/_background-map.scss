@@ -2,6 +2,7 @@
     background: url(../i/map-3.png) no-repeat;
     height: rem-calc(498);
     position: relative;
+    background-size: cover;
 }
 
 .background-map__city {
@@ -53,7 +54,9 @@
 .background-map__span {
     position: absolute;
     color: #fff;
-    line-height: rem-calc(14);   
+    line-height: rem-calc(14);
+    margin-left: 3.6rem;
+    margin-top: 0.8rem;
 }
 
 .background-map__span_1 {
@@ -107,7 +110,6 @@
 
     .background-map {
         background: url(../i/map-5.png) no-repeat;
-        background-size: 100%;
         height: rem-calc(136);
     }
 

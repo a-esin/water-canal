@@ -2,13 +2,17 @@ form(action='#' method='get')
     .grid-x.grid-padding-x
         .small-24.medium-20.cell
             label: input(type='text', placeholder='Djljghjdjl').page-error__input.margin-bottom-3
-        .small-24.medium-2.cell
-            input.button.page-error__button.page-error__button_search(type='submit', value='').margin-bottom-0
+        .small-24.medium-2.cell.medium-text-left.text-center
+            input.button.page-error__button.page-error__button_search(type='submit', value='').margin-bottom-0.show-for-medium
+            input(type="submit", value="Искать").show-for-small-only.page-error__button-mobile.margin-bottom-4
     .grid-x.grid-padding-x
-        .small-22.cell
-            p.search-results__sort Сортировать результаты поиска: 
-                a.button.search-results__button.search-results__button_active(href="#", title="") По дате
-                a.button.search-results__button(href="#", title="") По релевантности
+        .medium-22.cell.medium-text-left.text-center
+            span.search-results__sort Сортировать результаты поиска:            
+            a.button.search-results__button.search-results__button_active.show-for-medium(href="#", title="") По дате
+            a.button.search-results__button.show-for-medium(href="#", title="") По релевантности
+            .show-for-small-only
+                a.button.search-results__button.search-results__button_active.expanded.margin-top-5.margin-bottom-5(href="#", title="") По дате
+                a.button.search-results__button.expanded.margin-bottom-5(href="#", title="") По релевантности
             hr
             p.search-results__nothing По запросу “
                 span.text-primary Djljghjdjl 

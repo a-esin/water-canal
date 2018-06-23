@@ -5,40 +5,40 @@ block page
     block content
         .background-map
 
-            a.background-map__city.background-map__city_1.background-map__city_active
-            span.background-map__span.background-map__span_1 Росводоканал 
-                br
-                | Тверь
+            a.background-map__city.background-map__city_1.js-tver
+                span.background-map__span Росводоканал 
+                    br
+                    | Тверь
 
-            a.background-map__city.background-map__city_2
-            span.background-map__span.background-map__span_2 Росводоканал 
-                br
-                | Воронеж
+            a.background-map__city.background-map__city_2.js-voronezh
+                span.background-map__span Росводоканал 
+                    br
+                    | Воронеж
 
-            a.background-map__city.background-map__city_3
-            span.background-map__span.background-map__span_3 Росводоканал 
-                br
-                | Краснодар
+            a.background-map__city.background-map__city_3.js-krasnodar
+                span.background-map__span Росводоканал 
+                    br
+                    | Краснодар
 
-            a.background-map__city.background-map__city_4
-            span.background-map__span.background-map__span_4 Росводоканал 
-                br
-                | Оренбург
+            a.background-map__city.background-map__city_4.js-orenburg
+                span.background-map__span Росводоканал 
+                    br
+                    | Оренбург
 
-            a.background-map__city.background-map__city_5
-            span.background-map__span.background-map__span_5 Росводоканал 
-                br
-                | Тюмень
+            a.background-map__city.background-map__city_5.js-tyumen
+                span.background-map__span Росводоканал 
+                    br
+                    | Тюмень
 
-            a.background-map__city.background-map__city_6
-            span.background-map__span.background-map__span_6 Росводоканал 
-                br
-                | Омск
+            a.background-map__city.background-map__city_6.js-omsk
+                span.background-map__span Росводоканал 
+                    br
+                    | Омск
 
-            a.background-map__city.background-map__city_7
-            span.background-map__span.background-map__span_7 Росводоканал 
-                br
-                | Барнаул
+            a.background-map__city.background-map__city_7.js-barnaul
+                span.background-map__span Росводоканал 
+                    br
+                    | Барнаул
 
             .map-infographic.map-infographic_1
                 .map-infographic__number 7
@@ -72,16 +72,16 @@ block page
 
                 ul.accordion.accordion-map(data-accordion data-allow-all-closed="true")
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-voronezh(data-accordion-item)
                         a(href="").accordion-title Росводоканал Воронеж
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-voronezh(data-tab-content)
                             p Текст
 
 
-                    li.accordion-item.is-active(data-accordion-item)
-                        a(href="").accordion-title Тверь Росводоканал
-                        .accordion-content.accordion-map__content(data-tab-content)
-                            h2.accordion-map__h2 Тверь Росводоканал
+                    li.accordion-item.js-item-tver(data-accordion-item)
+                        a(href="").accordion-title Росводоканал Тверь
+                        .accordion-content.accordion-map__content.js-content-tver(data-tab-content)
+                            h2.accordion-map__h2 Росводоканал Тверь
                             
                             .grid-x.grid-padding-x
 
@@ -190,28 +190,28 @@ block page
                                     p.contacts__phone (4822) 58-83-16
                                     p.contacts__work-schedule 8:00 - 17:00 в рабочие дни
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-krasnodar(data-accordion-item)
                         a(href="").accordion-title Росводоканал Краснодар
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-krasnodar(data-tab-content)
                             p Текст
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-orenburg(data-accordion-item)
                         a(href="").accordion-title Росводоканал Оренбург
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-orenburg(data-tab-content)
                             p Текст
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-tyumen(data-accordion-item)
                         a(href="").accordion-title Росводоканал Тюмень
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-tyumen(data-tab-content)
                             p Текст
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-omsk(data-accordion-item)
                         a(href="").accordion-title Росводоканал Омск
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-omsk(data-tab-content)
                             p Текст
 
-                    li.accordion-item(data-accordion-item)
+                    li.accordion-item.js-item-barnaul(data-accordion-item)
                         a(href="").accordion-title Росводоканал Барнаул
-                        .accordion-content(data-tab-content)
+                        .accordion-content.js-content-barnaul(data-tab-content)
                             p Текст
              

@@ -326,6 +326,92 @@
           $('.background-map__city_6').removeClass('background-map__city_active');
         });
 
+       
+
+        $('.js-tver').click(function() {
+          $('.js-item-tver').toggleClass('is-active');
+          $('.js-content-tver').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-tver').click(function() {
+          $('.js-content-tver').removeClass('display-block');
+        });
+
+        $('.js-voronezh').click(function() {
+          $('.js-item-voronezh').toggleClass('is-active');
+          $('.js-content-voronezh').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-voronezh").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-voronezh').click(function() {
+          $('.js-content-voronezh').removeClass('display-block');
+        });
+
+         $('.js-krasnodar').click(function() {
+          $('.js-item-krasnodar').toggleClass('is-active');
+          $('.js-content-krasnodar').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-krasnodar").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-krasnodar').click(function() {
+          $('.js-content-krasnodar').removeClass('display-block');
+        });
+
+         $('.js-orenburg').click(function() {
+          $('.js-item-orenburg').toggleClass('is-active');
+          $('.js-content-orenburg').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-orenburg").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-orenburg').click(function() {
+          $('.js-content-orenburg').removeClass('display-block');
+        });
+
+        $('.js-tyumen').click(function() {
+          $('.js-item-tyumen').toggleClass('is-active');
+          $('.js-content-tyumen').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-tyumen").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-tyumen').click(function() {
+          $('.js-content-tyumen').removeClass('display-block');
+        });
+
+        $('.js-omsk').click(function() {
+          $('.js-item-omsk').toggleClass('is-active');
+          $('.js-content-omsk').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-omsk").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-omsk').click(function() {
+          $('.js-content-omsk').removeClass('display-block');
+        });
+
+        $('.js-barnaul').click(function() {
+          $('.js-item-barnaul').toggleClass('is-active');
+          $('.js-content-barnaul').toggleClass('display-block');
+          $('html, body').animate({
+              scrollTop: $(".js-item-barnaul").offset().top
+          }, 1200);
+        });
+
+        $('.js-item-barnaul').click(function() {
+          $('.js-content-barnaul').removeClass('display-block');
+        });
+
 
         // Чекбокс согласия на обработку персональных данных
 
