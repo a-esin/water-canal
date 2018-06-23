@@ -102,6 +102,7 @@
 
     .background-map {
         background: url(../i/map-4.png) no-repeat;
+        background-size: cover;
     }
 
 }
@@ -111,6 +112,15 @@
     .background-map {
         background: url(../i/map-5.png) no-repeat;
         height: rem-calc(136);
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1005px) {
+
+    .background-map__city_7 {
+        display: none;
     }
 
 }

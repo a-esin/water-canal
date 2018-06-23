@@ -326,90 +326,353 @@
           $('.background-map__city_6').removeClass('background-map__city_active');
         });
 
-       
+      
+      // Тверь  
 
         $('.js-tver').click(function() {
+
           $('.js-item-tver').toggleClass('is-active');
+
           $('.js-content-tver').toggleClass('display-block');
-          $('html, body').animate({
+
+          if ($(this).hasClass('background-map__city_active')) {
+
+            $('html, body').animate({
               scrollTop: $(".js-item-tver").offset().top
-          }, 1200);
+            }, 1200);
+
+          }
+
+          else {
+            $('.js-content-tver').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+          
         });
 
         $('.js-item-tver').click(function() {
+
           $('.js-content-tver').removeClass('display-block');
+
+          $('.js-tver').toggleClass('background-map__city_active');
+
+          $('.js-voronezh').removeClass('background-map__city_active');          
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+      // Воронеж
+
         $('.js-voronezh').click(function() {
+
           $('.js-item-voronezh').toggleClass('is-active');
+
           $('.js-content-voronezh').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-voronezh").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+
+          }
+
+          else {
+            $('.js-content-voronezh').css('display', 'none');
+          }
+
+          $('.js-item-tver').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-tver').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+
         });
 
         $('.js-item-voronezh').click(function() {
+
           $('.js-content-voronezh').removeClass('display-block');
+
+          $('.js-voronezh').toggleClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+
+
+        // Краснодар
+
          $('.js-krasnodar').click(function() {
+
           $('.js-item-krasnodar').toggleClass('is-active');
+
           $('.js-content-krasnodar').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-krasnodar").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+
+          }
+
+          else {
+            $('.js-content-krasnodar').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-tver').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-tver').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+
         });
 
         $('.js-item-krasnodar').click(function() {
+
           $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-krasnodar').toggleClass('background-map__city_active');
+          $('.js-voronezh').removeClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+        // Оренбург
+
          $('.js-orenburg').click(function() {
+
           $('.js-item-orenburg').toggleClass('is-active');
+
           $('.js-content-orenburg').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-orenburg").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+
+          }
+
+          else {
+            $('.js-content-orenburg').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-tver').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-tver').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+
         });
 
         $('.js-item-orenburg').click(function() {
+
           $('.js-content-orenburg').removeClass('display-block');
+          $('.js-orenburg').toggleClass('background-map__city_active');
+          $('.js-voronezh').removeClass('background-map__city_active');
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+        // Тюмень
+
         $('.js-tyumen').click(function() {
+
           $('.js-item-tyumen').toggleClass('is-active');
+
           $('.js-content-tyumen').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-tyumen").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+          }
+
+          else {
+            $('.js-content-tyumen').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tver').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tver').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+
         });
 
         $('.js-item-tyumen').click(function() {
+
           $('.js-content-tyumen').removeClass('display-block');
+          $('.js-tyumen').toggleClass('background-map__city_active');
+          $('.js-voronezh').removeClass('background-map__city_active');
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+        // Омск
+
         $('.js-omsk').click(function() {
+
           $('.js-item-omsk').toggleClass('is-active');
+
           $('.js-content-omsk').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-omsk").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+          }
+
+          else {
+            $('.js-content-omsk').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-tver').removeClass('is-active');
+          $('.js-item-barnaul').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-tver').removeClass('display-block');
+          $('.js-content-barnaul').removeClass('display-block');
+
         });
 
         $('.js-item-omsk').click(function() {
+
           $('.js-content-omsk').removeClass('display-block');
+          $('.js-omsk').toggleClass('background-map__city_active');
+          $('.js-voronezh').removeClass('background-map__city_active');
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+          $('.js-barnaul').removeClass('background-map__city_active');
+
         });
 
+
+        // Барнаул
+
         $('.js-barnaul').click(function() {
+
           $('.js-item-barnaul').toggleClass('is-active');
+
           $('.js-content-barnaul').toggleClass('display-block');
-          $('html, body').animate({
-              scrollTop: $(".js-item-barnaul").offset().top
-          }, 1200);
+
+          if ($(this).hasClass('background-map__city_active')) {
+            $('html, body').animate({
+              scrollTop: $(".js-item-tver").offset().top
+            }, 1200);
+          }
+
+          else {
+            $('.js-content-barnaul').css('display', 'none');
+          }
+
+          $('.js-item-voronezh').removeClass('is-active');
+          $('.js-item-krasnodar').removeClass('is-active');
+          $('.js-item-orenburg').removeClass('is-active');
+          $('.js-item-tyumen').removeClass('is-active');
+          $('.js-item-omsk').removeClass('is-active');
+          $('.js-item-tver').removeClass('is-active');
+
+          $('.js-content-voronezh').removeClass('display-block');
+          $('.js-content-krasnodar').removeClass('display-block');
+          $('.js-content-orenburg').removeClass('display-block');
+          $('.js-content-tyumen').removeClass('display-block');
+          $('.js-content-omsk').removeClass('display-block');
+          $('.js-content-tver').removeClass('display-block');
+
         });
 
         $('.js-item-barnaul').click(function() {
+
           $('.js-content-barnaul').removeClass('display-block');
+          $('.js-barnaul').toggleClass('background-map__city_active');
+          $('.js-voronezh').removeClass('background-map__city_active');
+          $('.js-krasnodar').removeClass('background-map__city_active');
+          $('.js-orenburg').removeClass('background-map__city_active');
+          $('.js-tyumen').removeClass('background-map__city_active');
+          $('.js-omsk').removeClass('background-map__city_active');
+          $('.js-tver').removeClass('background-map__city_active');
+
         });
 
 
